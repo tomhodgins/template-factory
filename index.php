@@ -9,12 +9,13 @@
 <p>The goal of this site is to provide a simple way to build and test new code, and improve existing code.</p>
 <h3>Themes for <a href=>basic.css</a></h3>
 <ul>
-  <li><a href=default.php data-button>Default</a>
-  <li><a href=dark.php data-button=green>Dark</a>
-  <li><a href=code.php data-button=blue>Code</a>
-  <li><a href=book.php data-button=red>Book</a>
+  <li><a href=default.php data-button>Default Theme</a>
+  <li><a href=dark.php data-button=green>Dark Theme</a>
+  <li><a href=code.php data-button=blue>Code Theme</a>
+  <li><a href=book.php data-button=red>Book Theme</a>
   <li><a href=green.php data-button>Green style</a>
   <li><a href=swiss.php data-button=blue>Swiss style</a>
+  <li><a href=rfi.php data-button=green>RFI Style</a>
 </ul>
 <h3>Plugin Tests</h3>
 <ul>

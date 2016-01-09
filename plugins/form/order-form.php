@@ -73,6 +73,9 @@
       case "green":
         echo "";
         break;
+      case "rfi":
+        echo "green";
+        break;
       default:
         echo "";
     }

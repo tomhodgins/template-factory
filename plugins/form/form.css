@@ -32,6 +32,7 @@ form [type="email"] {
   -webkit-appearance: none;
   appearance: none;
   -moz-appearance: none;
+  font-family: 'Fira Sans', 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
 }
 form select,
 form .split-input > select {
@@ -62,7 +63,7 @@ form [type="tel"]:focus,
 form [type^="cc-"]:focus,
 form [type="email"]:focus {
   outline: none;
-  border-color: #fc0;
+  border-color: orange;
   box-shadow: #fc0 0 0 3px;
 }
 form select,
@@ -121,7 +122,7 @@ form [data-button] {
   font-style: italic !important;
   float: none !important;
   display: block !important;
-  margin: 0 auto !important;
+  margin: 0 auto .5em auto !important;
 }
 @element 'form' and (min-width: 450px) {
   $this select,
@@ -178,9 +179,5 @@ form [data-button] {
     position: absolute;
     bottom: .25em;
     right: 0;
-  }
-  $this .lockit:active:after {
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAACACAQAAABXPgRLAAADW0lEQVR4AczV0WuVZRzA8c9J51mSwhuhTXAxxhjO4cYOIkkTEaO2cgmJpBdiF+JF3diCSXgjRaAXgVA3QuUupC7WxWposQvFhXkzCcnkcEicuyhhOpBkho31D8R53vO+zznzc/vCj/fL7wdPQXQjL+rVqd1LWjzvOUX8428P/GnGH8p+9ZfICiOiWeFlO7ymywuqm/O7n1zxi8WnLaTD297RbYX0Fv3mW9+pPC0hJe97SyKbeeM+Ny2nZ+TTbdRVhyWyShx21aju5QtZ46Qph6yS1yqHTDlpzXKc1g6fKYlr2geuNHIjBcdNKomtZNJxhUZtJPGFA+rnG++Zr/9GWk3UNYMDJrTWO6TDBdvV23YXdNQzpM24zRphs3Ft9QpZb8wmjbLJmPX1CGn2pT6N1OcrzfFDPvaGRhv0SeyQfT60HIbtixmy0RlZLJlzR0XFHXOWZHHGxnghp2xQm1nnHbHTNn169OizzU5HnDerNhucivWyv+l7Ben96GuT5v2/xKve9br0lgyZyB/yrCklaf3sUxeFDfjIK9Ka1m8h72ntT53xyIhdqTK4aJcRj6RTsp98IUXHpHPXHqc9kdYTp+1xVzrHFPOFDOqRxg27XVKrS3a7IY0eg/lCjkqjbEhFFhVDytI4miekS7+w+w6akdWMg+4L69eVPWTAamHDrsvjumFhqw1kD9krbMyovEaNCdubNaTdFiEPnRDDCQ+FbNGeLWSrtULOKYuh7JyQtbZmCWlSErLgrFjOWhBS0lR7SIteIZfdFMtNl4X0askS0inkBzGFp3VmCWmTBA/rmpiuBY8r0VZ7SKui6u65JaZb7qmuqLX2kHWaVHfbYzE9dlt1TdbVHpIImRVbeGJSe0izkAeiCkwM/NVKVb4E/Cu28MSV/7VnxzYIw0AARS+WC0RFw1DU7EBJy66sQBEqoEARDBBw4xQXvT9ATs+FJV+W+NEzdAN0+GKJnIGAgIAkCAQEBAQEBASkLH8IPWfWP+u3R3N907tXc+bzN+Qa+9lH/7a51zrHqTNk05x5jMOs4jZcxthF/u4lplhDk+sXBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQkSSAgICBlHY4aY9R4J2d8FR/Yu6rMkqYzjgAAAABJRU5ErkJggg==') no-repeat;
-
   }
 }

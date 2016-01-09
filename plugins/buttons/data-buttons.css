@@ -41,7 +41,7 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   background: -o-linear-gradient(top, #ff8900 0%,#ff3d00 100%) !important;
   background: -ms-linear-gradient(top, #ff8900 0%,#ff3d00 100%) !important;
   background: linear-gradient(to bottom, #ff8900 0%,#ff3d00 100%) !important;
-  font-family: 'Source Sans Pro', 'Myriad Pro', 'Open Sans', Roboto, Myriad, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans', 'Source Sans Pro', 'Myriad Pro', 'Open Sans', Roboto, Myriad, 'Segoe UI', Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-kerning: auto;
   text-decoration: none;

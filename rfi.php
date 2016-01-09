@@ -1,10 +1,9 @@
 <?php
   $template = 'single';
-  $template_title = 'Swiss Style';
-  $template_theme = 'swiss';
+  $template_title = 'RFI Style';
+  $template_theme = 'rfi';
 ?>
 <?php include("inc/header.php"); ?>
-<link href=http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic rel=stylehseet>
 <?php include("inc/dummy-content.php"); ?>
 <?php include("plugins/form/order-form.php"); ?>
 <footer>&copy; <script>document.write(new Date().getFullYear())</script> Tommy Hodgins</footer>

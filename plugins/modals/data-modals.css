@@ -95,7 +95,7 @@
   color: #555;
 }
 [data-modal] [data-theme=dark] h1 {
-  color: #eee;
+color: #eee;
 }
 [data-modal] [data-theme=dark] h1,
 [data-modal] [data-theme=dark] h2,

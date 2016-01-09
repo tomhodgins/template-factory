@@ -312,6 +312,11 @@ video {
 [data-theme=book] footer a {
   color: #632;
 }
+[data-theme=book] [data-button] {
+  text-shadow: rgba(0,0,0,.2) 1px 1px 0;
+  box-shadow: inset rgba(255,255,255,.3) 0 1px 0;
+  font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+}
 /* Code Theme */
 [data-theme=code] {
   color: #839496;
