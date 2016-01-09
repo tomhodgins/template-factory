@@ -1,0 +1,178 @@
+/* Swiss Theme */
+[data-theme=swiss] {
+  color: #222;
+  background: #ec0;
+  font-family: 'Helvetica Neue Light', 'Helvetica Neue', 'Roboto', 'Source Sans Pro', 'Open Sans', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+}
+[data-theme=swiss] ::-moz-selection {
+  color: black;
+  text-shadow: none;
+  background-color: yellow !important;
+}
+[data-theme=swiss] ::-webkit-selection {
+  color: #black;
+  text-shadow: none;
+  background-color: yellow !important;
+}
+[data-theme=swiss] ::selection {
+  color: black;
+  text-shadow: none;
+  background-color: yellow !important;
+}
+[data-theme=swiss] h1,
+[data-theme=swiss] h2,
+[data-theme=swiss] h3,
+[data-theme=swiss] h4,
+[data-theme=swiss] h5,
+[data-theme=swiss] h6 {
+  color: black;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Roboto', 'Source Sans Pro', 'Open Sans', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+}
+[data-theme=swiss] h1 {
+  color: white;
+  text-shadow: #a80 0 2px 0;
+}
+[data-theme=swiss] h1 + h2 {
+  color: #a80;
+}
+[data-theme=swiss] code {
+  color: #333;
+  background: white;
+  font-weight: 400;
+  border: none;
+  border-radius: 0;
+  box-shadow: #ca0 0 1px 0;
+  text-shadow: none;
+}
+[data-theme=swiss] pre {
+  color: #333;
+  background: white;
+  font-weight: 400;
+  border: 1px solid rgba(0,0,0,.05);
+  border-radius: 0;
+  box-shadow: rgba(0,0,0,.3) 0 1px .5px, rgba(0,0,0,.15) 0 3px 5px;
+}
+[data-theme=swiss] blockquote {
+  color: #a80;
+  font-family: 'Helvetica Neue Light', 'Helvetica Neue', 'Roboto', 'Source Sans Pro', 'Open Sans', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+}
+[data-theme=swiss] blockquote p {
+  color: white;
+  font-weight: 600;
+  text-shadow: #a80 1px 1px 0;
+}
+[data-theme=swiss] a {
+  color: white;
+  font-weight: 500;
+  text-shadow: #a80 1px 1px 1px;
+}
+[data-theme=swiss] a:focus,
+[data-theme=swiss] a:hover {
+  text-decoration: underline;
+}
+[data-theme=swiss] hr {
+  background: #ca0;
+}
+[data-theme=swiss] footer {
+  color: #a80;
+}
+[data-theme=swiss] select,
+[data-theme=swiss] .split-input > input,
+[data-theme=swiss] .split-input > select,
+[data-theme=swiss] [type="text"],
+[data-theme=swiss] [type="tel"],
+[data-theme=swiss] [type^="cc-"],
+[data-theme=swiss] [type="email"] {
+  border-radius: 0;
+  background: white;
+  border-color: white;
+}
+[data-theme=swiss] select:focus,
+[data-theme=swiss] .split-input > input:focus,
+[data-theme=swiss] .split-input > select:focus,
+[data-theme=swiss] [type="text"]:focus,
+[data-theme=swiss] [type="tel"]:focus,
+[data-theme=swiss] [type^="cc-"]:focus,
+[data-theme=swiss] [type="email"]:focus {
+  border-color: black;
+}
+
+/* Flat Notifications */
+[data-theme=swiss] [data-wrapper] aside {
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+}
+[data-theme=swiss] [data-wrapper] aside:before {
+  display: none;
+}
+
+/* Flat Buttons */
+[data-theme=swiss] [data-button] {
+  border-radius: 2px;
+  background: #f50 !important;
+  text-shadow: none !important;
+  border: none !important;
+  font-weight: 400 !important;
+  box-shadow: none !important;
+  font-family: 'Helvetica Neue Light', 'Helvetica Neue', 'Roboto', 'Source Sans Pro', 'Open Sans', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+}
+[data-theme=swiss] [data-button]:hover,
+[data-theme=swiss] [data-button]:focus {
+  background: #ff8900 !important;
+}
+[data-theme=swiss] [data-button]:active {
+  background: #ff3d00 !important;
+}
+/* Blue Theme */
+[data-theme=swiss] [data-button=blue] {
+  background: #05f !important;
+}
+[data-theme=swiss] [data-button=blue]:hover,
+[data-theme=swiss] [data-button=blue]:focus {
+  background: #07f !important;
+}
+[data-theme=swiss] [data-button=blue]:active {
+  background: #0080ff !important;
+}
+/* Green Theme */
+[data-theme=swiss] [data-button=green] {
+  background: #380 !important;
+}
+[data-theme=swiss] [data-button=green]:hover,
+[data-theme=swiss] [data-button=green]:focus {
+  background: #4a1 !important;
+}
+[data-theme=swiss] [data-button=green]:active {
+  background: #360 !important;
+}
+/* Red Theme */
+[data-theme=swiss] [data-button=red] {
+  background: #a00 !important;
+}
+[data-theme=swiss] [data-button=red]:hover,
+[data-theme=swiss] [data-button=red]:focus {
+  background: #d11 !important;
+}
+[data-theme=swiss] [data-button=red]:active {
+  background: #600 !important;
+}
+/* Grey Theme */
+[data-theme=swiss] [data-button=grey] {
+  background: #475875 !important;
+}
+[data-theme=swiss] [data-button=grey]:hover,
+[data-theme=swiss] [data-button=grey]:focus {
+  background: #617699 !important;
+}
+[data-theme=swiss] [data-button=grey]:active {
+  background: #151d31 !important;
+}
+/* Outline Theme */
+[data-theme=swiss] [data-button=outline],
+[data-theme=swiss] [data-button=outline]:hover,
+[data-theme=swiss] [data-button=outline]:focus,
+[data-theme=swiss] [data-button=outline]:active {
+  background: transparent !important;
+  border: 1px solid currentColor !important;
+}

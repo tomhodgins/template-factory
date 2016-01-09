@@ -1,0 +1,149 @@
+[data-wrapper],
+[data-wrapper] * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+[data-wrapper]:empty {
+  display: none;
+}
+[data-wrapper] {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1em 0;
+  font-size: 10pt;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+  z-index: 1000;
+}
+[data-wrapper].fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 .75em;
+}
+[data-wrapper] aside {
+  position: relative;
+  padding: .75em 1em;
+  margin-bottom: .75em;
+  border-radius: .25em;
+  border-top: 1px solid rgba(255,255,255,.3);
+  border-bottom: 1px solid rgba(0,0,0,.25);
+  overflow: hidden;
+  max-height: 50vh;
+  color: darkgreen;
+  background: lightgreen;
+  opacity: 0;
+  box-shadow: rgba(0,0,0,.1) 0 1px 2px;
+  transition: opacity .75s ease-in-out,
+              max-height 1s ease-in-out;
+}
+[data-wrapper] aside.displayed {
+  opacity: 1;
+}
+[data-wrapper] aside * {
+  position: relative;
+  z-index: 1005;
+}
+[data-wrapper] aside:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, currentColor 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,currentColor));
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,currentColor 100%);
+  background: -o-linear-gradient(left, rgba(0,0,0,0) 0%,currentColor 100%);
+  background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%,currentColor 100%);
+  background: linear-gradient(to right, rgba(0,0,0,0) 0%,currentColor 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='currentColor',GradientType=1 );
+  pointer-events: none;
+  z-index: 0;
+  opacity: .3;
+  pointer-events: none;
+}
+[data-wrapper] aside:last-of-type {
+  margin-bottom: 0;
+}
+[data-wrapper] aside.deleted {
+  max-height: 0;
+  opacity: 0;
+}
+[data-wrapper] aside input {
+  display: block;
+  margin: 0 !important;
+  width: auto !important;
+  padding: .25em !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: currentColor;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  font-size: 16pt !important;
+  line-height: .5;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  opacity: .5;
+  transition: all .2s ease-in-out;
+}
+[data-wrapper] aside input:hover,
+[data-wrapper] aside input:focus {
+  opacity: 1;
+  color: #c00;
+  text-shadow: rgba(0,0,0,.3) 1px 1px 1px;
+}
+[data-wrapper] aside input:active {
+  opacity: 1;
+  color: rgba(0,0,0,.5);
+  text-shadow: rgba(0,0,0,0) 0 0 0;
+}
+[data-wrapper] aside p {
+  margin: 0;
+  font-size: 11pt;
+  line-height: 1.4;
+  margin-bottom: .5em;
+  text-shadow: none;
+}
+[data-wrapper] aside p:last-of-type {
+  margin-bottom: 0;
+}
+[data-wrapper] aside p a {
+  color: currentColor;
+  text-decoration: underline;
+  font-weight: 500;
+}
+/* Themes */
+aside[data-theme=error] {
+  color: darkred;
+  background: #f99;
+}
+aside[data-theme=alt] {
+  color: midnightblue;
+  background: cornflowerblue;
+}
+aside[data-theme=warning] {
+  color: crimson;
+  background: orange;
+}
+aside[data-theme=option] {
+  color: indigo;
+  background: mediumpurple;
+}

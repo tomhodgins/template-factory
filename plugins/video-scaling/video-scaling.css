@@ -1,0 +1,8 @@
+/* Wrapper-free Responsive Video Scaling */
+@element 'iframe' {
+  $this {
+    margin: 0 auto;
+    width: 100%;
+    height: eval("scrollWidth/(width/height)")px;
+  }
+}

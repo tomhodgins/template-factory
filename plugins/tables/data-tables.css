@@ -1,0 +1,116 @@
+@element '[data-table]' {
+  $this,
+  $this *,
+  $this *:before,
+  $this *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+  }
+}
+/* Table Reset */
+@element '[data-table]' and (max-width: 400px) {
+  $this,
+  $this caption,
+  $this thead,
+  $this tbody,
+  $this tfoot,
+  $this tr,
+  $this th,
+  $this td { display: block; width: 100%; }
+}
+@element '[data-table]' and (min-width: 400px) {
+  $this { display: table; width: auto; }
+  $this caption { display: table-caption; width: auto; }
+  $this thead { display: table-header-group; width: auto; }
+  $this tbody { display: table-row-group; width: auto; }
+  $this tfoot { display: table-footer-group; width: auto; }
+  $this tr { display: table-row; width: auto; }
+  $this th,
+  $this td { display: table-cell; width: auto; }
+  [data-theme=code] table caption {color: #eee8d5;}
+  [data-theme=dark] table caption {color: #eee;}
+  [data-theme=book] table caption {color: #632;}
+  [data-theme=green] table caption {color: white;}
+  [data-theme=swiss] table caption {color: black;}
+}
+/* Default Table Style */
+@element '[data-table-theme*=default]' {
+  $this {
+    color: #333;
+    background: white;
+    border: 1px solid grey;
+    font-size: 12pt;
+    border-collapse: collapse;
+  }
+  $this thead th,
+  $this tfoot th {
+    color: #777;
+    background: rgba(0,0,0,.1);
+  }
+  $this caption {
+    padding:.5em;
+  }
+  $this th,
+  $this td {
+    padding: .5em;
+    border: 1px solid lightgrey;
+  }
+}
+@element '[data-table-theme*=default],[data-table-theme*=dark]' and (max-width: 400px) {
+  $this thead,
+  $this tfoot {
+    display: none;
+  }
+  $this td:before {
+    content: attr(data-header)': ';
+  }
+}
+@element '[data-table-theme*=default],[data-table-theme*=dark]' and (min-width: 400px) {
+  $this thead {
+    display: table-header-group;
+  }
+  $this tfoot {
+    display: table-footer-group;
+  }
+  $this td:before {
+    display: none;
+  }
+}
+/* Zebra Table Style */
+@element '[data-table-theme*=zebra]' {
+  $this tbody tr:nth-of-type(odd) {
+    background: rgba(0,0,0,.05);
+  }
+}
+@element '[data-table-theme*=zebra][data-table-theme*=dark]' {
+  $this tbody tr:nth-of-type(odd) {
+    background: rgba(255,255,255,.05);
+  }
+}
+/* Dark Style */
+@element '[data-table-theme*=dark]' {
+  $this {
+    color: #ddd;
+    background: #333;
+    font-size: 12pt;
+    border-collapse: collapse;
+  }
+  $this thead th,
+  $this tfoot th {
+    color: #aaa;
+    background: rgba(0255,255,255,.15);
+  }
+  $this caption {
+    padding:.5em;
+  }
+  $this th,
+  $this td {
+    padding: .5em;
+    border: 1px solid grey;
+  }
+}

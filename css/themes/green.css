@@ -1,0 +1,69 @@
+/* Green Theme */
+[data-theme=green] {
+  color: white;
+  background: green;
+  background: -moz-linear-gradient(-45deg, green 0%, chartreuse 100%);
+  background: -webkit-linear-gradient(-45deg, green 0%,chartreuse 100%);
+  background: linear-gradient(135deg, green) 0%,chartreuse 100%);
+  background-attachment: fixed;
+}
+[data-theme=green] h1,
+[data-theme=green] h2,
+[data-theme=green] h3,
+[data-theme=green] h4,
+[data-theme=green] h5,
+[data-theme=green] h6 {
+  color: darkgreen;
+}
+[data-theme=green] h1 {
+  color: white;
+  text-shadow: darkgreen 0 2px 0;
+}
+[data-theme=green] code {
+  color: darkgreen;
+  background: chartreuse;
+  font-weight: 400;
+  border: none;
+  border-radius: 2px;
+  box-shadow: green 0 1px 0;
+  text-shadow: none;
+}
+[data-theme=green] pre {
+  color: darkgreen;
+  background: chartreuse;
+}
+[data-theme=green] blockquote {
+  color: darkgreen;
+}
+[data-theme=green] blockquote p {
+  color: chartreuse;
+  font-weight: 600;
+}
+[data-theme=green] blockquote footer {
+  color: darkgreen;
+}
+[data-theme=green] a {
+  color: greenyellow;
+  text-shadow: inherit;
+  text-shadow: rgba(3,0,3,.6) 1px 1px 1px;
+}
+[data-theme=green] a:focus,
+[data-theme=green] a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+[data-theme=green] p {
+  text-shadow: darkgreen 1px 1px 1px;
+}
+[data-theme=green] hr {
+  background: green;
+}
+[data-theme=green] ul a:hover,
+[data-theme=green] ul a:focus,
+[data-theme=green] ol a:hover,
+[data-theme=green] ol a:focus {
+  color: chartreuse;
+}
+[data-theme=green] footer {
+  color: green;
+}
