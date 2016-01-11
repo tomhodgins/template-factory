@@ -27,12 +27,12 @@
 <a href=# data-button="red" disabled>.red button</a>
 <a href=# data-button="grey" class="disabled">.grey button</a>
 <a href=# data-button="outline" hidden>.outline button</a>
-<h3>Flat Buttons</h3>
+<h3>Semi-Flat Buttons</h3>
 <p>Enable this style by adding <code>flat</code> to the <code>data-button</code> attribute. This style is enabled as default in the <code>date-theme=book</code> and <code>data-theme=rfi</code> themes as well.</p>
-<a href=# data-button=flat disabled>default button</a>
-<a href=# data-button="blue flat" class="disabled">.blue button</a>
-<a href=# data-button="green flat" hidden>.green button</a>
-<a href=# data-button="red flat" disabled>.red button</a>
-<a href=# data-button="grey flat" class="disabled">.grey button</a>
-<a href=# data-button="outline flat" hidden>.outline button</a>
+<a href=# data-button=flat>default button</a>
+<a href=# data-button="blue flat">.blue button</a>
+<a href=# data-button="green flat">.green button</a>
+<a href=# data-button="red flat">.red button</a>
+<a href=# data-button="grey flat">.grey button</a>
+<a href=# data-button="outline flat">.outline button</a>
 <?php include("../../inc/footer.php"); ?>

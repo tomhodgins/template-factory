@@ -89,6 +89,7 @@
 [data-modal] [data-theme] h1,
 [data-modal] [data-theme] h2 {
   margin-top: 0;
+  margin-bottom: 0;
   padding-top: .25em;
   color: #333;
 }

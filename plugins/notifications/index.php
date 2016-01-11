@@ -6,7 +6,7 @@
 <?php include("../../inc/header.php"); ?>
 <h1>Notifications</h1>
 <h2>Responsive Notifications in simple HTML, CSS, and JS</h2>
-<p>You'll be able to find examples there of how to display a modal, but the basic format is this:</p>
+<p>You'll be able to find examples here of how to display a modal, but the basic format is this:</p>
 <pre>notification(message,theme,duration)</pre>
 <p>The available themes are:</p>
 <ul>

@@ -244,10 +244,17 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   border-bottom-color: currentColor;
   box-shadow: inset rgba(0,0,0,.1) 0 0 .3em;
 }
-/* Flat Buttons */
+/* Semi-Flat Buttons */
 [data-button*="flat"],
 [data-theme=book] [data-button],
-[data-theme=rfi] [data-button] {
+[data-theme=rfi] [data-button],
+[data-button*="flat"]:hover,
+[data-theme=book] [data-button]:hover,
+[data-theme=rfi] [data-button]:hover,
+[data-button*="flat"]:focus,
+[data-theme=book] [data-button]:focus,
+[data-theme=rfi] [data-button]:focus {
+  font-weight: 600;
   text-shadow: rgba(0,0,0,.2) 1px 1px 0;
   box-shadow: inset rgba(255,255,255,.3) 0 1px 0;
   font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;

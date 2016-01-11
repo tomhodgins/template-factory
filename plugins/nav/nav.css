@@ -364,6 +364,9 @@
 }
 [data-theme=rfi] [data-nav] .brand {
   color: black;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  font-family: 'Open Sans', 'Myriad Pro', Myriad, 'Segoe UI', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
 }
 [data-theme=rfi] [data-nav] label span,
 [data-theme=rfi] [data-nav] label > div a {

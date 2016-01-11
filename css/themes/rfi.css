@@ -1,7 +1,7 @@
 /* RFI Theme */
 [data-theme=rfi] {
   color: #333;
-  background: white;
+  background: #eee;
   font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
 }
 [data-theme=rfi] ::-moz-selection {
@@ -18,6 +18,11 @@
   color: white;
   text-shadow: none !important;
   background-color: #f60 !important;
+}
+[data-theme=rfi] body > main {
+  background: white;
+  border-top: 1px solid #ddd;
+  box-shadow: rgba(0,0,0,.05) 0 3px 3px;
 }
 [data-theme=rfi] h1,
 [data-theme=rfi] h2,
@@ -107,8 +112,18 @@
   border-color: orange;
   box-shadow: #fc0 0 0 3px;
 }
+[data-modal] article [data-theme=rfi] {
+  background: white;
+}
 @media (min-width: 750px) {
   [data-theme=rfi] main > p {
     font-size: 12pt;
+  }
+}
+@media (min-width: 850px) {
+  [data-theme=rfi] body > main {
+    margin: 3em auto;
+    border-radius: 3px;
+    border: 1px solid #ddd;
   }
 }
