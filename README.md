@@ -11,15 +11,15 @@ The Template Factory is home to a few different things that are being developed,
 Included themes from `basic.css` are:
 
 - [default](http://staticresource.com/template/themes/default.php)
-- [`data-theme=dark`](http://staticresource.com/themes/template/dark.php)
-- [`data-theme=code`](http://staticresource.com/themes/template/code.php)
-- [`data-theme=book`](http://staticresource.com/themes/template/book.php)
+- [`data-theme=dark`](http://staticresource.com/template/themes/dark.php)
+- [`data-theme=code`](http://staticresource.com/template/themes/code.php)
+- [`data-theme=book`](http://staticresource.com/template/themes/book.php)
 
 And via additional stylesheets there are also:
 
-- [`data-theme=green`](http://staticresource.com/themes/template/green.php)
-- [`data-theme=swiss`](http://staticresource.com/themes/template/swiss.php)
-- [`data-theme=rfi`](http://staticresource.com/themes/template/rfi.php)
+- [`data-theme=green`](http://staticresource.com/template/themes/green.php)
+- [`data-theme=swiss`](http://staticresource.com/template/themes/swiss.php)
+- [`data-theme=rfi`](http://staticresource.com/template/themes/rfi.php)
 
 The second type of thing being developed at the Template Factory are CSS and JavaScript plugins that are intended to be used across multiple sites. What better environment to test these plugins than in a multi-themed website. These plugins are all located inside their own folders in the `plugins/` folder, often with their own documentation labelled as `index.php`.
 
