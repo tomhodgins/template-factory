@@ -79,6 +79,9 @@
 [data-modal] article button:first-of-type:focus {
   color: #c00;
 }
+[data-theme=dark] article button:first-of-type {
+  color: rgba(255,255,255,.5);
+}
 [data-modal] [data-theme] {
   padding: 1em;
 }

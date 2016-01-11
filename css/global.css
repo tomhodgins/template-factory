@@ -1,18 +1,29 @@
+body {
+  max-width: none;
+  padding: 0;
+}
+body > main {
+  max-width: 850px;
+  min-height: 100%;
+  padding: 2em;
+  margin: 0 auto;
+}
 @media (min-width: 750px) {
   html main > p {
     font-size: 14pt;
   }
 }
 /* FullWidth Template */
-body.fullwidth {
-  margin: 0;
+body.fullwidth > main {
   padding: 0;
+  margin: 0;
   max-width: none;
 }
-body.fullwidth section {
+body.fullwidth > main [data-theme] {
   padding: 1.5em 1.5em 4em 1.5em;
 }
-body.fullwidth section main {
+body.fullwidth > main main {
   margin: 0 auto;
+  padding: 0;
   max-width: 850px;
 }

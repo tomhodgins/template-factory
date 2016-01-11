@@ -10,7 +10,7 @@
   background-color: #f60 !important;
 }
 [data-theme=rfi] ::-webkit-selection {
-  color: #white;
+  color: white;
   text-shadow: none !important;
   background-color: #f60 !important;
 }
@@ -33,6 +33,9 @@
   color: black;
   font-size: 325%;
   letter-spacing: -.05em;
+  text-shadow: none;
+  position: relative;
+  z-index: 50;
 }
 [data-theme=rfi] h1 + h2 {
   margin-top: -.75em;
@@ -41,15 +44,19 @@
 }
 [data-theme=rfi] code {
   color: #333;
-  background: #fc0;
+  background: #eee;
   font-weight: 400;
-  border: none;
+  border: 1px solid #ccc;
   border-radius: 2px;
   text-shadow: none;
+  box-shadow: none;
+  position: relative;
+  z-index: 0;
 }
 [data-theme=rfi] pre {
   color: #333;
-  background: #fc0;
+  background: #eee;
+  border: 1px solid #ccc;
 }
 [data-theme=rfi] blockquote {
   color: #999;
@@ -106,7 +113,7 @@
   font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
 }
 @media (min-width: 750px) {
-  [data-theme=rfi] p {
+  [data-theme=rfi] main > p {
     font-size: 12pt;
   }
 }

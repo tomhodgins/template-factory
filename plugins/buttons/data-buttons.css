@@ -47,7 +47,8 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   text-decoration: none;
   text-align: center;
   font-size: 14pt;
-  line-height: 1.2 !important;
+  line-height: 1 !important;
+  vertical-align: -webkit-baseline-middle;
   color: white !important;
   text-shadow: #e20 1px 1px 0;
   border-radius: 3px;

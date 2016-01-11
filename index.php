@@ -7,15 +7,15 @@
 <h1>The Template Factory</h1>
 <h2>Testing various themes and plugins against each other</h2>
 <p>The goal of this site is to provide a simple way to build and test new code, and improve existing code.</p>
-<h3>Themes for <a href=>basic.css</a></h3>
+<h3>Theme Demos</h3>
 <ul>
-  <li><a href=default.php data-button>Default Theme</a>
-  <li><a href=dark.php data-button=green>Dark Theme</a>
-  <li><a href=code.php data-button=blue>Code Theme</a>
-  <li><a href=book.php data-button=red>Book Theme</a>
-  <li><a href=green.php data-button>Green style</a>
-  <li><a href=swiss.php data-button=blue>Swiss style</a>
-  <li><a href=rfi.php data-button=green>RFI Style</a>
+  <li><a href=themes/default.php data-button>Default Theme</a>
+  <li><a href=themes/dark.php data-button=green>Dark Theme</a>
+  <li><a href=themes/code.php data-button=blue>Code Theme</a>
+  <li><a href=themes/book.php data-button=red>Book Theme</a>
+  <li><a href=themes/green.php data-button>Green style</a>
+  <li><a href=themes/swiss.php data-button=blue>Swiss style</a>
+  <li><a href=themes/rfi.php data-button=green>RFI Style</a>
 </ul>
 <h3>Plugin Tests</h3>
 <ul>
