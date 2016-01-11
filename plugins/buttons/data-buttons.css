@@ -31,7 +31,7 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   display: inline-block;
   width: auto;
   margin: .5em auto;
-  padding: .6em .7em .7em .7em;
+  padding: .6em .6em .5em .6em;
   text-decoration: none !important;
   outline: none;
   background: #ff8900 !important;
@@ -42,12 +42,12 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   background: -ms-linear-gradient(top, #ff8900 0%,#ff3d00 100%) !important;
   background: linear-gradient(to bottom, #ff8900 0%,#ff3d00 100%) !important;
   font-family: 'Fira Sans', 'Source Sans Pro', 'Myriad Pro', 'Open Sans', Roboto, Myriad, 'Segoe UI', Helvetica, Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-kerning: auto;
   text-decoration: none;
   text-align: center;
   font-size: 14pt;
-  line-height: 1;
+  line-height: 1.2 !important;
   color: white !important;
   text-shadow: #e20 1px 1px 0;
   border-radius: 3px;

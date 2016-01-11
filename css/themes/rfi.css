@@ -25,13 +25,19 @@
 [data-theme=rfi] h4,
 [data-theme=rfi] h5,
 [data-theme=rfi] h6 {
-  color: #777;
+  color: #111;
   letter-spacing: -.04em;
-  font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+  font-family: 'Open Sans', 'Myriad Pro', Myriad, 'Segoe UI', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
 }
 [data-theme=rfi] h1 {
   color: black;
+  font-size: 325%;
   letter-spacing: -.05em;
+}
+[data-theme=rfi] h1 + h2 {
+  margin-top: -.75em;
+  color: #999;
+  font-weight: 400;
 }
 [data-theme=rfi] code {
   color: #333;
@@ -50,7 +56,7 @@
   letter-spacing: -.02em;
 }
 [data-theme=rfi] blockquote p {
-  color: #fc0;
+  color: #f60;
   font-weight: 700;
   font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
 }
@@ -98,3 +104,9 @@
   text-shadow: rgba(0,0,0,.2) 1px 1px 0;
   box-shadow: inset rgba(255,255,255,.3) 0 1px 0;
   font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+}
+@media (min-width: 750px) {
+  [data-theme=rfi] p {
+    font-size: 12pt;
+  }
+}

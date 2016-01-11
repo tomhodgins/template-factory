@@ -44,12 +44,3 @@
 <p><img class=float-right style=width:100px src=//staticresource.com/user.png>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <p><img class=float-none src=//staticresource.com/user.png></p>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<script>
-  //Test Notifications
-  notification('','',5)
-  notification('','error',5.1)
-  notification('This is some custom text right here!','alt',5.2)
-  notification('This will disappear in a few seconds','',5.3)
-  notification('<strong>Strong</strong> and <em>emphasized</em> text','warning',5.4)
-  notification('Image inside notification<br><img src=//placehold.it/250x100>','option',5.5)
-</script>
