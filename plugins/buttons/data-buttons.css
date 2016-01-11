@@ -47,7 +47,7 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   text-decoration: none;
   text-align: center;
   font-size: 14pt;
-  line-height: 1 !important;
+  line-height: 1.2 !important;
   vertical-align: -webkit-baseline-middle;
   color: white !important;
   text-shadow: #e20 1px 1px 0;
@@ -89,7 +89,7 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   pointer-events: none;
 }
 /* Blue Theme */
-[data-button=blue] {
+[data-button*=blue] {
   background: #0cf !important;
   background: -moz-linear-gradient(top, #0cf 0%, #0080ff 100%) !important;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0cf), color-stop(100%,#0080ff)) !important;
@@ -102,8 +102,8 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   border-bottom-color: #02e;
   box-shadow: inset #0065ff 0 -5px 15px, inset #99ffff 0 1px 1px, rgba(0,0,0,.15) 0px 1px 1px;
 }
-[data-button=blue]:hover,
-[data-button=blue]:focus {
+[data-button*=blue]:hover,
+[data-button*=blue]:focus {
   background: #7df !important;
   background: -moz-linear-gradient(top, #7df 0%, #07f 100%) !important;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7df), color-stop(100%,#07f)) !important;
@@ -113,14 +113,14 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   background: linear-gradient(to bottom, #7df 0%,#07f 100%) !important;
   box-shadow: inset #08f 0 -5px 15px, inset #cef 0 1px 1px, rgba(0,0,0,.15) 0px 1px 1px, rgba(0,200,255,.5) 0 0 10px;
 }
-[data-button=blue]:active {
+[data-button*=blue]:active {
   background: #05f !important;
   border: 1px solid #00f;
   border-bottom-color: #01d;
   box-shadow: inset #04f 0 -5px 15px, inset #8ad2ff 0 1px 1px;
 }
 /* Green Theme */
-[data-button=green] {
+[data-button*=green] {
   background: #6a1 !important;
   background: -moz-linear-gradient(top, #6a1 0%, #360 100%) !important;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6a1), color-stop(100%,#360)) !important;
@@ -133,8 +133,8 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   border-bottom-color: #005822;
   box-shadow: inset #072 0 -5px 15px, inset #8e8 0 1px 1px, rgba(0,0,0,.15) 0px 1px 1px;
 }
-[data-button=green]:hover,
-[data-button=green]:focus {
+[data-button*=green]:hover,
+[data-button*=green]:focus {
   background: #6d4 !important;
   background: -moz-linear-gradient(top, #6d4 0%, #360 100%) !important;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6d4), color-stop(100%,#360)) !important;
@@ -144,14 +144,14 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   background: linear-gradient(to bottom, #6d4 0%,#360 100%) !important;
   box-shadow: inset #064 0 -5px 15px, inset #8e8 0 1px 1px, rgba(0, 255, 75, 0.5) 0 0 10px, rgba(0,0,0,.15) 0px 1px 1px;
 }
-[data-button=green]:active {
+[data-button*=green]:active {
   background: #340 !important;
   border: 1px solid #005822;
   border-bottom-color: #052;
   box-shadow: inset #040 0 -5px 15px, inset #8e8 0 1px 1px;
 }
 /* Red Theme */
-[data-button=red] {
+[data-button*=red] {
   background: #a11 !important;
   background: -moz-linear-gradient(top, #a11 0%, #800 100%) !important;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a11), color-stop(100%,#800)) !important;
@@ -164,8 +164,8 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   border-bottom-color: #500;
   box-shadow: inset #700 0 -5px 15px, inset #e88 0 1px 1px, rgba(0,0,0,.15) 0px 1px 1px;
 }
-[data-button=red]:hover,
-[data-button=red]:focus {
+[data-button*=red]:hover,
+[data-button*=red]:focus {
   background: #d44 !important;
   background: -moz-linear-gradient(top, #d44 0%, #800 100%) !important;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d44), color-stop(100%,#800)) !important;
@@ -175,14 +175,14 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   background: linear-gradient(to bottom, #d44 0%,#800 100%) !important;
   box-shadow: inset #600 0 -5px 15px, inset #e88 0 1px 1px, rgba(255, 0, 0, 0.5) 0 0 10px, rgba(0,0,0,.15) 0px 1px 1px;
 }
-[data-button=red]:active {
+[data-button*=red]:active {
   background: #600 !important;
   border: 1px solid #500;
   border-bottom-color: #400;
   box-shadow: inset #400 0 -5px 15px, inset #e88 0 1px 1px;
 }
 /* Grey Theme */
-[data-button=grey] {
+[data-button*=grey] {
   background: #475875 !important;
   background: -moz-linear-gradient(top, #475875 0%, #36455d 100%) !important;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#475875), color-stop(100%,#36455d)) !important;
@@ -195,8 +195,8 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   border-bottom-color: #151d31;
   box-shadow: inset #151d31 0 -5px 15px, inset #ccf 0 1px 1px, rgba(0,0,0,.15) 0px 1px 1px;
 }
-[data-button=grey]:hover,
-[data-button=grey]:focus {
+[data-button*=grey]:hover,
+[data-button*=grey]:focus {
   background: #617699 !important;
   background: -moz-linear-gradient(top, #617699 0%, #475875 100%) !important;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#617699), color-stop(100%,#475875)) !important;
@@ -206,14 +206,14 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   background: linear-gradient(to bottom, #617699 0%,#475875 100%) !important;
   box-shadow: inset #2d3950 0 -5px 15px, inset #ccf 0 1px 1px, rgba(0,0,0,.15) 0px 1px 1px, rgba(200,200,255,.5) 0 0 10px;
 }
-[data-button=grey]:active {
+[data-button*=grey]:active {
   background: #151d31 !important;
   border: 1px solid #151d31;
   border-bottom-color: #0a0f22;
   box-shadow: inset #2d3950 0 -5px 15px, inset #ccf 0 1px 1px;
 }
 /* Outline Theme */
-[data-button=outline] {
+[data-button*=outline] {
   color: inherit !important;
   background: transparent !important;
   text-shadow: none;
@@ -223,13 +223,13 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   font-weight: 400;
   opacity: .75 !important;
 }
-[data-button=outline].disabled,
-[data-button=outline][hidden],
-[data-button=outline][disabled] {
+[data-button*=outline].disabled,
+[data-button*=outline][hidden],
+[data-button*=outline][disabled] {
   opacity: .25 !important;
 }
-[data-button=outline]:hover,
-[data-button=outline]:focus {
+[data-button*=outline]:hover,
+[data-button*=outline]:focus {
   color: inherit !important;
   background: transparent !important;
   border: 1px solid currentColor;
@@ -237,10 +237,18 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   box-shadow: none;
   opacity: 1 !important;
 }
-[data-button=outline]:active {
+[data-button*=outline]:active {
   color: inherit !important;
   background: transparent !important;
   border: 1px solid currentColor;
   border-bottom-color: currentColor;
   box-shadow: inset rgba(0,0,0,.1) 0 0 .3em;
+}
+/* Flat Buttons */
+[data-button*="flat"],
+[data-theme=book] [data-button],
+[data-theme=rfi] [data-button] {
+  text-shadow: rgba(0,0,0,.2) 1px 1px 0;
+  box-shadow: inset rgba(255,255,255,.3) 0 1px 0;
+  font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
 }

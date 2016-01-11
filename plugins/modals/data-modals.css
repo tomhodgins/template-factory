@@ -29,6 +29,7 @@
   -webkit-transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   transition: opacity .2s ease-in-out;
+  z-index: 1000;
 }
 [data-modal] [data-overlay] {
   display: block;
@@ -38,7 +39,7 @@
   top: 0;
   left: 0;
   background: transparent;
-  z-index: 500;
+  z-index: 750;
   cursor: pointer;
 }
 [data-modal] article {
@@ -51,7 +52,7 @@
   transition: margin .2s ease-in-out;
   color: #333;
   background: white;
-  z-index: 1000;
+  z-index: 2000;
 }
 [data-modal] article button:first-of-type {
   position: absolute;

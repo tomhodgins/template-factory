@@ -30,7 +30,7 @@
 <body class=<?php echo "$template"; ?>>
   <!-- Nav -->
   <nav data-nav>
-    <a href="<?php echo $site_url; ?>" class=brand>The Template Factory</a>
+    <a href="<?php echo $site; ?>" class=brand>The Template Factory</a>
     <input type=checkbox id=menu>
     <label for=menu><span>≡</span></label>
     <!-- Menu Loop -->
@@ -64,7 +64,7 @@
     <!-- /Menu Loop -->
     <input type=radio name=topNav id=reset>
     <label for=reset></label>
-    </nav>
+  </nav>
   <section data-wrapper class=fixed></section>
   <script src=<?php echo $site ?>/plugins/notifications/notifications.js></script>
   <link href=<?php echo $site; ?>/plugins/modals/data-modals.css rel=stylesheet>
