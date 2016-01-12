@@ -66,7 +66,7 @@
   <li>include the modal plugin on your page with <code>&lt;?php include("plugins/modals/modal.php"); ?></code>
   <li>launch the modal by name with the JavaScript <code>spawnModal('')</code> and supply the same name as the file, e.g. <code>spawnModal('example')</code>
 </ul>
-<pre style=white-space:pre>&lt;input onclick=spanwmodal('demo')
+<pre style=white-space:pre>&lt;input onclick=spanwmodal('demo')>
 &lt;?php $modal = "demo"; include("plugins/modals/modal.php") ?></pre>
 <footer>&copy; <script>document.write(new Date().getFullYear())</script> Tommy Hodgins</footer>
 <?php include("inc/footer.php"); ?>
