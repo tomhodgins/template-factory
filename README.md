@@ -70,6 +70,6 @@ All in all, a new empty template file might look like:
 - launch the modal by name with the JavaScript `spawnModal('')` and supply the same name as the file, e.g. `spawnModal('example')`
 
 ```
-<input onclick=spanwmodal('demo')>
+<input onclick=spawnModal('demo')>
 <?php $modal = "demo"; include("plugins/modals/modal.php"); ?>
 ```
