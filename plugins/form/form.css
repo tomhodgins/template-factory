@@ -38,24 +38,6 @@ form select,
 form .split-input > select {
   color: rgba(0,0,0,.5);
 }
-::-webkit-input-placeholder {
-  color: rgba(0,0,0,.5);
-}
-:-moz-placeholder {
-  color: rgba(0,0,0,.5);
-}
-::-moz-placeholder {
-  color: rgba(0,0,0,.5);
-}
-:-ms-input-placeholder {
-  color: rgba(0,0,0,.5);
-}
-::-ms-input-placeholder {
-  color: rgba(0,0,0,.5);
-}
-:placeholder-shown {
-  color: rgba(0,0,0,.5);
-}
 form select:focus,
 form .split-input > *:focus,
 form [type="text"]:focus,

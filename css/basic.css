@@ -41,6 +41,24 @@ This stylesheet contains multiple themes. To apply a theme add the attribute `da
   text-shadow: #007931 1px 1px 1px;
   background-color: #26ba62 !important;
 }
+::-webkit-input-placeholder {
+  color: rgba(0,0,0,.5);
+}
+:-moz-placeholder {
+  color: rgba(0,0,0,.5);
+}
+::-moz-placeholder {
+  color: rgba(0,0,0,.5);
+}
+:-ms-input-placeholder {
+  color: rgba(0,0,0,.5);
+}
+::-ms-input-placeholder {
+  color: rgba(0,0,0,.5);
+}
+:placeholder-shown {
+  color: rgba(0,0,0,.5);
+}
 html {
   color: #333;
   font-size: 10pt;

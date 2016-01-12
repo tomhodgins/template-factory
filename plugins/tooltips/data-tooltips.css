@@ -17,12 +17,12 @@
 }
 [data-tip],
 [data-tip] * {
-  color: white;
   font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
   text-shadow: rgba(0,0,0,.3) 0 1px 2px;
 }
 [data-tip] {
+  color: white;
   background: #555;
   width: 100%;
   max-width: calc(100% - 10px);
@@ -67,7 +67,8 @@
 }
 [data-tip] h1 {
   margin: 0;
-  font-size: 12pt;
+  color: #eee !important;
+  font-size: 12pt !important;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: -.02em;
@@ -80,9 +81,10 @@
 [data-tip] p {
   margin: 0;
   text-align: left;
-  font-size: 10pt;
+  font-size: 10pt !important;
   line-height: 1.4;
   font-weight: 400;
+  text-shadow: none !important;
 }
 @media (min-width: 500px){
   [data-tip] {
@@ -90,4 +92,91 @@
     margin: 0;
     max-width: calc(300px - 5px);
   }
+}
+/* Theme support */
+[data-theme=dark] [data-tip] {
+  color: #555;
+  background: #eee;
+  border: 1px solid white;
+}
+[data-theme=dark] [data-tip] > i:before {
+  border-bottom-color: white;
+}
+[data-theme=dark] [data-tip] > i:after {
+  border-bottom-color: #eee;
+}
+[data-theme=dark] [data-tip] h1 {
+  color: #333 !important;
+}
+[data-theme=code] [data-tip] {
+  color: #657b83;
+  background: #fdf6e3;
+  border: 1px solid #eee8d5;
+}
+[data-theme=code] [data-tip] > i:before {
+  border-bottom-color: #eee8d5;
+}
+[data-theme=code] [data-tip] > i:after {
+  border-bottom-color: #fdf6e3;
+}
+[data-theme=code] [data-tip] h1 {
+  color: #073642 !important;
+}
+[data-theme=book] [data-tip],
+[data-theme=book] [data-tip] * {
+  font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+}
+[data-theme=book] [data-tip] {
+  color: #742;
+  background: #eee8d5;
+  border: 1px solid tan;
+  font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+}
+[data-theme=book] [data-tip] > i:before {
+  border-bottom-color: tan;
+}
+[data-theme=book] [data-tip] > i:after {
+  border-bottom-color: #eee8d5;
+}
+[data-theme=book] [data-tip] h1,
+[data-theme=book] [data-tip] h1 * {
+  color: #632 !important;
+  font-family: 'Playfair Display', 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+}
+[data-theme=green] [data-tip] {
+  color: #333;
+  background: white;
+  border: 1px solid transparent;
+}
+[data-theme=green] [data-tip] > i:before {
+  border-bottom-color: transparent;
+}
+[data-theme=green] [data-tip] > i:after {
+  border-bottom-color: white;
+}
+[data-theme=green] [data-tip] h1 {
+  color: darkgreen !important;
+}
+[data-theme=book] [data-tip],
+[data-theme=book] [data-tip] * {
+  font-family: 'Helvetica Neue Light', 'Helvetica Neue', 'Roboto', 'Source Sans Pro', 'Open Sans', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+}
+[data-theme=swiss] [data-tip] {
+  color: white;
+  background: black;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+[data-theme=swiss] [data-tip] > i:before {
+  border-bottom-color: transparent;
+}
+[data-theme=swiss] [data-tip] > i:after {
+  border-bottom-color: black;
+}
+[data-theme=swiss] [data-tip] h1 {
+  color: white !important;
+}
+[data-theme=swiss] [data-tip] h1,
+[data-theme=swiss] [data-tip] h1 * {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Roboto', 'Source Sans Pro', 'Open Sans', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
 }

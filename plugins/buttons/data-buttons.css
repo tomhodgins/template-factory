@@ -245,13 +245,13 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   box-shadow: inset rgba(0,0,0,.1) 0 0 .3em;
 }
 /* Semi-Flat Buttons */
-[data-button*="flat"],
+[data-button*="semiflat"],
 [data-theme=book] [data-button],
 [data-theme=rfi] [data-button],
-[data-button*="flat"]:hover,
+[data-button*="semiflat"]:hover,
 [data-theme=book] [data-button]:hover,
 [data-theme=rfi] [data-button]:hover,
-[data-button*="flat"]:focus,
+[data-button*="semiflat"]:focus,
 [data-theme=book] [data-button]:focus,
 [data-theme=rfi] [data-button]:focus {
   font-weight: 600;

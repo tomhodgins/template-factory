@@ -21,7 +21,6 @@
 }
 [data-theme=rfi] body > main {
   background: white;
-  border-top: 1px solid #ddd;
   box-shadow: rgba(0,0,0,.05) 0 3px 3px;
 }
 [data-theme=rfi] h1,
@@ -115,7 +114,16 @@
 [data-modal] article [data-theme=rfi] {
   background: white;
 }
-@media (min-width: 750px) {
+[data-theme=rfi] [data-nav] {
+  border-bottom: 1px solid #ccc;
+}
+@media (min-width: 500px) {
+  [data-theme=rfi] [data-nav] input + label > div {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ccc;
+  }
+}@media (min-width: 750px) {
   [data-theme=rfi] main > p {
     font-size: 12pt;
   }
