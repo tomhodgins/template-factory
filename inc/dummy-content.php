@@ -20,18 +20,18 @@
 </ol>
 <h4>Button Test</h4>
 <a href=# data-button>default button</a>
-<a href=# data-button="blue">.blue button</a>
-<a href=# data-button="green">.green button</a>
-<a href=# data-button="red">.red button</a>
-<a href=# data-button="grey">.grey button</a>
-<a href=# data-button="outline">.outline button</a>
+<a href=# data-button="blue">blue button</a>
+<a href=# data-button="green">green button</a>
+<a href=# data-button="red">red button</a>
+<a href=# data-button="grey">grey button</a>
+<a href=# data-button="outline">outline button</a>
 <br>
 <a href=# data-button disabled>default button</a>
-<a href=# data-button="blue" class="disabled">.blue button</a>
-<a href=# data-button="green" hidden>.green button</a>
-<a href=# data-button="red" disabled>.red button</a>
-<a href=# data-button="grey" class="disabled">.grey button</a>
-<a href=# data-button="outline" hidden>.outline button</a>
+<a href=# data-button="blue" class="disabled">blue button</a>
+<a href=# data-button="green" hidden>green button</a>
+<a href=# data-button="red" disabled>red button</a>
+<a href=# data-button="grey" class="disabled">grey button</a>
+<a href=# data-button="outline" hidden>outline button</a>
 <pre>&lt;script>alert('I LOVE ALERTS!')&lt;/script></pre>
 <h1>This is an &lt;H1&gt; Headline</h1>
 <hr>

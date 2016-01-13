@@ -14,25 +14,113 @@
 &lt;input data-button=green type=button value=Button>
 &lt;a data-button=red href=# disabled>disabled&lt;/a></pre>
 <h3>Regular Buttons</h3>
-<a href=# data-button>default button</a>
-<a href=# data-button="blue">.blue button</a>
-<a href=# data-button="green">.green button</a>
-<a href=# data-button="red">.red button</a>
-<a href=# data-button="grey">.grey button</a>
-<a href=# data-button="outline">.outline button</a>
-<h3>Disabled Buttons</h3>
-<a href=# data-button disabled>default button</a>
-<a href=# data-button="blue" class="disabled">.blue button</a>
-<a href=# data-button="green" hidden>.green button</a>
-<a href=# data-button="red" disabled>.red button</a>
-<a href=# data-button="grey" class="disabled">.grey button</a>
-<a href=# data-button="outline" hidden>.outline button</a>
+<aside>
+  <a data-button href=#>anchor tag</a>
+  <input data-button type=button value="input button">
+  <input data-button type=submit value="input submit">
+  <label data-button>label</label>
+  <button data-button>button</button>
+  <button data-button disabled>disabled</button>
+</aside>
+<aside>
+  <a data-button=green href=#>anchor tag</a>
+  <input data-button=green type=button value="input button">
+  <input data-button=green type=submit value="input submit">
+  <label data-button=green>label</label>
+  <button data-button=green>button</button>
+  <button data-button=green disabled>disabled</button>
+</aside>
+<aside>
+  <a data-button=red href=#>anchor tag</a>
+  <input data-button=red type=button value="input button">
+  <input data-button=red type=submit value="input submit">
+  <label data-button=red>label</label>
+  <button data-button=red>button</button>
+  <button data-button=red disabled>disabled</button>
+</aside>
+<aside>
+  <a data-button=blue href+#>anchor tag</a>
+  <input data-button=blue type=button value="input button">
+  <input data-button=blue type=submit value="input submit">
+  <label data-button=blue>label</label>
+  <button data-button=blue>button</button>
+  <button data-button=blue disabled>disabled</button>
+</aside>
+<aside>
+  <a data-button=grey href=#>anchor tag</a>
+  <input data-button=grey type="button" value="input button">
+  <input data-button=grey type="submit" value="input submit">
+  <label data-button=grey>label</label>
+  <button data-button=grey>button</button>
+  <button data-button=grey disabled>disabled</button>
+</aside>
+<aside>
+  <a data-button=outline href=#>anchor tag</a>
+  <input data-button=outline type=button value="input button">
+  <input data-button=outline type=submit value="input submit">
+  <label data-button=outline>label</label>
+  <button data-button=outline>button</button>
+  <button data-button=outline disabled>disabled</button>
+</aside>
 <h3>Semi-Flat Buttons</h3>
-<p>Enable this style by adding <code>flat</code> to the <code>data-button</code> attribute. This style is enabled as default in the <code>date-theme=book</code> and <code>data-theme=rfi</code> themes as well.</p>
-<a href=# data-button=flat>default button</a>
-<a href=# data-button="blue flat">.blue button</a>
-<a href=# data-button="green flat">.green button</a>
-<a href=# data-button="red flat">.red button</a>
-<a href=# data-button="grey flat">.grey button</a>
-<a href=# data-button="outline flat">.outline button</a>
+<p>Enable this style by adding <code>semiflat</code> to the <code>data-button</code> attribute. This style is enabled as default in the <code>date-theme=book</code> and <code>data-theme=rfi</code> themes as well.</p>
+<aside>
+  <a data-button=semiflat href=#>anchor tag</a>
+  <input data-button=semiflat type=button value="input button">
+  <input data-button=semiflat type=submit value="input submit">
+  <label data-button=semiflat>label</label>
+  <button data-button=semiflat>button</button>
+  <button data-button=semiflat disabled>disabled</button>
+</aside>
+<aside>
+  <a data-button="green semiflat" href=#>anchor tag</a>
+  <input data-button="green semiflat" type=button value="input button">
+  <input data-button="green semiflat" type=submit value="input submit">
+  <label data-button="green semiflat">label</label>
+  <button data-button="green semiflat">button</button>
+  <button data-button="green semiflat" disabled>disabled</button>
+</aside>
+<aside>
+  <a data-button="red semiflat" href=#>anchor tag</a>
+  <input data-button="red semiflat" type=button value="input button">
+  <input data-button="red semiflat" type=submit value="input submit">
+  <label data-button="red semiflat">label</label>
+  <button data-button="red semiflat">button</button>
+  <button data-button="red semiflat" disabled>disabled</button>
+</aside>
+<aside>
+  <a data-button="blue semiflat" href+#>anchor tag</a>
+  <input data-button="blue semiflat" type=button value="input button">
+  <input data-button="blue semiflat" type=submit value="input submit">
+  <label data-button="blue semiflat">label</label>
+  <button data-button="blue semiflat">button</button>
+  <button data-button="blue semiflat" disabled>disabled</button>
+</aside>
+<aside>
+  <a data-button="grey semiflat" href=#>anchor tag</a>
+  <input data-button="grey semiflat" type="button" value="input button">
+  <input data-button="grey semiflat" type="submit" value="input submit">
+  <label data-button="grey semiflat">label</label>
+  <button data-button="grey semiflat">button</button>
+  <button data-button="grey semiflat" disabled>disabled</button>
+</aside>
+<aside>
+  <a data-button="outline semiflat" href=#>anchor tag</a>
+  <input data-button="outline semiflat" type=button value="input button">
+  <input data-button="outline semiflat" type=submit value="input submit">
+  <label data-button="outline semiflat">label</label>
+  <button data-button="outline semiflat">button</button>
+  <button data-button="outline semiflat" disabled>disabled</button>
+</aside>
+<style>
+  aside {
+    text-align: center;
+    margin: .5em 0;
+  }
+  a,label,input,button {
+    width: auto !important;
+    font-size: 12pt;
+    margin: .25em !important;
+  }
+</style>
 <?php include("../../inc/footer.php"); ?>

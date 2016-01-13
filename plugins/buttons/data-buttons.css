@@ -31,7 +31,7 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   display: inline-block;
   width: auto;
   margin: .5em auto;
-  padding: .6em .6em .5em .6em;
+  padding: .6em .6em .5em .6em !important;
   text-decoration: none !important;
   outline: none;
   background: #ff8900 !important;
@@ -48,7 +48,6 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   text-align: center;
   font-size: 14pt;
   line-height: 1.2 !important;
-  vertical-align: -webkit-baseline-middle;
   color: white !important;
   text-shadow: #e20 1px 1px 0;
   border-radius: 3px;
@@ -61,6 +60,7 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   -o-user-select: none;
   user-select: none;
   cursor: pointer;
+  vertical-align: baseline;
 }
 [data-button]:hover,
 [data-button]:focus {
@@ -245,15 +245,15 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   box-shadow: inset rgba(0,0,0,.1) 0 0 .3em;
 }
 /* Semi-Flat Buttons */
-[data-button*="semiflat"],
-[data-theme=book] [data-button],
-[data-theme=rfi] [data-button],
-[data-button*="semiflat"]:hover,
-[data-theme=book] [data-button]:hover,
-[data-theme=rfi] [data-button]:hover,
-[data-button*="semiflat"]:focus,
-[data-theme=book] [data-button]:focus,
-[data-theme=rfi] [data-button]:focus {
+[data-button*="semiflat"]:not([data-button=outline]),
+[data-theme=book] [data-button]:not([data-button=outline]),
+[data-theme=rfi] [data-button]:not([data-button=outline]),
+[data-button*="semiflat"]:not([data-button=outline]):hover,
+[data-theme=book] [data-button]:not([data-button=outline]):hover,
+[data-theme=rfi] [data-button]:not([data-button=outline]):hover,
+[data-button*="semiflat"]:not([data-button=outline]):focus,
+[data-theme=book] [data-button]:not([data-button=outline]):focus,
+[data-theme=rfi] [data-button]:not([data-button=outline]):focus {
   font-weight: 600;
   text-shadow: rgba(0,0,0,.2) 1px 1px 0;
   box-shadow: inset rgba(255,255,255,.3) 0 1px 0;

@@ -8,6 +8,9 @@ body > main {
   padding: 2em;
   margin: 0 auto;
 }
+[data-button] {
+  font-size: 14pt !important;
+}
 @media (min-width: 750px) {
   html main > p {
     font-size: 14pt;

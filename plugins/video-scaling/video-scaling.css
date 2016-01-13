@@ -1,4 +1,13 @@
-/* Wrapper-free Responsive Video Scaling */
+/*
+
+  # The Mad CSScientist's Wrapper-free Responsive Video Scaling
+  written by Tommy Hodgins
+
+  ## Usage
+  This script is written using EQCSS, a JavaScript plugin for your website that extends CSS to include features like element queries, scoped CSS, JavaScript variables inside CSS, and more. http://elementqueries.com
+
+*/
+
 @element 'iframe' {
   $this {
     margin: 0 auto;
