@@ -93,6 +93,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.03em;
   line-height: 1.2;
   font-family: 'Fira Sans', 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+  word-break: break-word;
 }
 h1 {
   color: #333;
@@ -150,6 +151,8 @@ hr {
   border-radius: 3px;
   box-shadow: rgba(0,0,0,.1) 0 1px 0;
   font-family: 'Source Code Pro', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
+  max-width: 100%;
+  word-break: break-word;
 }
 *:not(pre) > code a {
   color: indigo;
@@ -163,10 +166,9 @@ pre {
   border-radius: 3px;
   font-size: 12pt;
   font-family: 'Source Code Pro', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
-  word-break: break-all;
-  word-wrap:break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
   font-kerning: auto;
-  white-space: pre-line;
   background: #002b36;
   border: 1px solid rgba(0,0,0,.05);
   box-shadow: inset rgba(0,0,0,.075) 0 -3px 10px,

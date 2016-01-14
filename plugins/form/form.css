@@ -34,10 +34,6 @@ form [type="email"] {
   -moz-appearance: none;
   font-family: 'Fira Sans', 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
 }
-form select,
-form .split-input > select {
-  color: rgba(0,0,0,.5);
-}
 form select:focus,
 form .split-input > *:focus,
 form [type="text"]:focus,
@@ -50,7 +46,9 @@ form [type="email"]:focus {
 }
 form select,
 form .split-input select {
+  color: rgba(0,0,0,.5);
   background: rgba(255,255,255,.5);
+  padding-right: 1.5em;
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAAjElEQVR4Ae2QxbkCARDGMlsB2sxe1ovCKR0uuOTh9jL3fH+Gu/DPP236dG+8Pm1IGTJmdMONGZJCQs78xstJAOJGVU6wJmd2lWRGzg5BcYVqRkHAoepS0aHGAz3KV/mao6ryT5qSQCmY6YsdD5QoCZQoCZSoG1bpGle5Rii3NI6v8jVO0Cwv+OefT2IBOYykNaMbWusAAAAASUVORK5CYII=') !important;
   background-repeat: no-repeat !important;
   background-position: calc(100% - .5em) 50% !important;

@@ -7,7 +7,7 @@
 <h1>Video Scaling</h1>
 <h2>Calculating height based on <code>scrollWidth</code></h2>
 <p>The following code is stored in <code>css/video-scaling.css</code> and uses Element Queries via the EQCSS plugin to automatically calculate the correct width/height based on the <code>scrollWidth</code> of the <code>&lt;iframe></code></p>
-<pre style=white-space:pre>@element 'iframe' {
+<pre>@element 'iframe' {
   $this {
     margin: 0 auto;
     width: 100%;

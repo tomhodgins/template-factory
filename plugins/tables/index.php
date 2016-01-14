@@ -23,7 +23,7 @@
   <em>&lsquo;Cdn&rsquo;</em> using the data attribute <code>data-header="Cdn"</code>
 </ul>
 <p>This plugin will only work if your <code>&lt;table></code> is formatted properly.</p>
-<pre style=white-space:pre>&lt;table>
+<pre>&lt;table>
   &lt;caption>Title&lt;/caption>
   &lt;thead>
     &lt;tr>
