@@ -6,6 +6,13 @@
 <?php include("../../inc/header.php"); ?>
 <h1>Match Height</h1>
 <h2>Matching element height in pure JS</h2>
+<p>This plugin will measure the height of a group of elements and assign each of them the highest value.</p>
+<p>To group elements together, assign each element a <code>data-col</code> attribute with the same value. This way, the plugin can calculate the heights of different groups of elements on the same page.</p>
+<pre>
+&lt;div data-col=a>&lt;/div>&lt;div data-col=a>&lt;/div>
+&lt;div data-col=b>&lt;/div>&lt;div data-col=b>&lt;/div>
+</pre>
+<p>In this example both <code>data-col=a</code> elements will be matched in height, and both <code>data-col=b</code> will be matched to each other as well.</p>
 <h3>data-col=a group</h3>
 <div>
   <aside data-col=a>

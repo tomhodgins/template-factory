@@ -11,7 +11,7 @@ To group elements together, assign each element a `data-col` attribute with the 
     <div data-col=example1></div><div data-col=example1></div>
     <div data-col=example2></div><div data-col=example2></div>
 
-In this example both `data-col=example1` elements will be matched in height, and both `data-col-example2` will be matched to each other as well.
+In this example both `data-col=example1` elements will be matched in height, and both `data-col=example2` will be matched to each other as well.
 
 */
 

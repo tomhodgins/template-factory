@@ -35,6 +35,8 @@
   <li><a href=plugins/tables data-button>Responsive Tables</a>
   <li><a href=plugins/modals data-button>Modals</a>
   <li><a href=plugins/buttons data-button>Buttons</a>
+  <li><a href=plugins/nav data-button>Responsive Navigation</a>
+  <li><a href=plugins/match-height data-button>Match-Height</a>
 </ul>
 <h2>Using the Template Factory</h2>
 <h3>How to build a website with the Template Factory</h3>

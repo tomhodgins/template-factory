@@ -35,6 +35,7 @@ Included plugins are:
 - [responsive tables](http://staticresource.com/template/plugins/tables)
 - [modals](http://staticresource.com/template/plugins/modals)
 - [CSS buttons](http://staticresource.com/template/plugins/buttons)
+- [Match Height](http://staticresource.com/template/plugins/match-height)
 
 ## How to build a website with the Template Factory
 
