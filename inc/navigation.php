@@ -29,6 +29,7 @@
       <a href=<?php echo $site; ?>/plugins/modals>Reponsive Modals</a>
       <a href=<?php echo $site; ?>/plugins/buttons>Buttons</a>
       <a href=<?php echo $site; ?>/plugins/nav>Responsive Nav</a>
+      <a href=<?php echo $site; ?>/plugins/match-height>Match Height</a>
     </div>
   </label>
   <!-- /Menu Loop -->
