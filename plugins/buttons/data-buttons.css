@@ -31,7 +31,7 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   display: inline-block;
   width: auto;
   margin: .5em auto;
-  padding: .6em .6em .5em .6em !important;
+  padding: .5em .6em !important;
   text-decoration: none !important;
   outline: none;
   background: #ff8900 !important;
@@ -41,8 +41,8 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   background: -o-linear-gradient(top, #ff8900 0%,#ff3d00 100%) !important;
   background: -ms-linear-gradient(top, #ff8900 0%,#ff3d00 100%) !important;
   background: linear-gradient(to bottom, #ff8900 0%,#ff3d00 100%) !important;
-  font-family: 'Fira Sans', 'Source Sans Pro', 'Myriad Pro', 'Open Sans', Roboto, Myriad, 'Segoe UI', Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-family: 'Source Sans Pro', 'Myriad Pro', 'Open Sans', Roboto, Myriad, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-weight: 600;
   font-kerning: auto;
   text-decoration: none;
   text-align: center;
@@ -95,7 +95,7 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0cf), color-stop(100%,#0080ff)) !important;
   background: -webkit-linear-gradient(top, #0cf 0%,#0080ff 100%) !important;
   background: -o-linear-gradient(top, #0cf 0%,#0080ff 100%) !important;
-  background: -mr-linear-gradient(top, #0cf 0%,#0080ff 100%) !important;
+  background: -ms-linear-gradient(top, #0cf 0%,#0080ff 100%) !important;
   background: linear-gradient(to bottom, #0cf 0%,#0080ff 100%) !important;
   text-shadow: #06e 1px 1px 0;
   border: 1px solid #07f;
@@ -109,7 +109,7 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7df), color-stop(100%,#07f)) !important;
   background: -webkit-linear-gradient(top, #7df 0%,#07f 100%) !important;
   background: -o-linear-gradient(top, #7df 0%,#07f 100%) !important;
-  background: -mr-linear-gradient(top, #7df 0%,#07f 100%) !important;
+  background: -ms-linear-gradient(top, #7df 0%,#07f 100%) !important;
   background: linear-gradient(to bottom, #7df 0%,#07f 100%) !important;
   box-shadow: inset #08f 0 -5px 15px, inset #cef 0 1px 1px, rgba(0,0,0,.15) 0px 1px 1px, rgba(0,200,255,.5) 0 0 10px;
 }
@@ -220,7 +220,7 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   border: 1px solid currentColor;
   border-bottom-color: currentColor;
   box-shadow: none;
-  font-weight: 400;
+  font-weight: 400 !important;
   opacity: .75 !important;
 }
 [data-button*=outline].disabled,
@@ -258,4 +258,58 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   text-shadow: rgba(0,0,0,.2) 1px 1px 0;
   box-shadow: inset rgba(255,255,255,.3) 0 1px 0;
   font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+}
+[data-theme=rfi] [data-button*=blue] {
+  text-shadow: #0c65b3 1px 1px 0 !important;
+  border: 1px solid #06f !important;
+  border-bottom-color: #02e !important;
+  background: #2d9eff !important;
+  background: -moz-linear-gradient(top, #2d9eff 0%, #1b88e6 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2d9eff), color-stop(100%,#1b88e6)) !important;
+  background: -webkit-linear-gradient(top, #2d9eff 0%,#1b88e6 100%) !important;
+  background: -o-linear-gradient(top, #2d9eff 0%,#1b88e6 100%) !important;
+  background: -ms-linear-gradient(top, #2d9eff 0%,#1b88e6 100%) !important;
+  background: linear-gradient(to bottom, #2d9eff 0%,#1b88e6 100%) !important;
+}
+[data-theme=rfi] [data-button*=blue]:hover,
+[data-theme=rfi] [data-button*=blue]:focus {
+  background: #3af !important;
+  background: -moz-linear-gradient(top, #3af 0%, #1b88e6 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3af), color-stop(100%,#1b88e6)) !important;
+  background: -webkit-linear-gradient(top, #3af 0%,#1b88e6 100%) !important;
+  background: -o-linear-gradient(top, #3af 0%,#1b88e6 100%) !important;
+  background: -ms-linear-gradient(top, #3af 0%,#1b88e6 100%) !important;
+  background: linear-gradient(to bottom, #3af 0%,#1b88e6 100%) !important;
+}
+[data-theme=rfi] [data-button*=blue]:active {
+  background: #05f !important;
+  border: 1px solid #00f !important;
+  border-bottom-color: #01d !important;
+}
+[data-theme=rfi] [data-button*=grey] {
+  text-shadow: #555 1px 1px 0 !important;
+  border: 1px solid #7a7a7a !important;
+  border-bottom-color: #555 !important;
+  background: #999 !important;
+  background: -moz-linear-gradient(top, #999 0%, #7a7a7a 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999), color-stop(100%,#7a7a7a)) !important;
+  background: -webkit-linear-gradient(top, #999 0%,#7a7a7a 100%) !important;
+  background: -o-linear-gradient(top, #999 0%,#7a7a7a 100%) !important;
+  background: -ms-linear-gradient(top, #999 0%,#7a7a7a 100%) !important;
+  background: linear-gradient(to bottom, #999 0%,#7a7a7a 100%) !important;
+}
+[data-theme=rfi] [data-button*=grey]:hover,
+[data-theme=rfi] [data-button*=grey]:focus {
+  background: #bababa !important;
+  background: -moz-linear-gradient(top, #bababa 0%, #7a7a7a 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bababa), color-stop(100%,#7a7a7a)) !important;
+  background: -webkit-linear-gradient(top, #bababa 0%,#7a7a7a 100%) !important;
+  background: -o-linear-gradient(top, #bababa 0%,#7a7a7a 100%) !important;
+  background: -ms-linear-gradient(top, #bababa 0%,#7a7a7a 100%) !important;
+  background: linear-gradient(to bottom, #bababa 0%,#7a7a7a 100%) !important;
+}
+[data-theme=rfi] [data-button*=grey]:active {
+  background: #7a7a7a !important;
+  border: 1px solid #555 !important;
+  border-bottom-color: #555 !important;
 }

@@ -328,7 +328,7 @@
 }
 [data-theme=swiss] [data-nav] label span,
 [data-theme=swiss] [data-nav] label > div a {
-  color: #ec0;
+  color: #f3c300;
 }
 [data-theme=swiss] [data-nav] input + label > div {
   background: white;
@@ -338,7 +338,7 @@
 }
 [data-theme=swiss] [data-nav] input + label > div a:hover,
 [data-theme=swiss] [data-nav] input + label > div a:focus {
-  color: #ec0;
+  color: #f3c300;
   text-decoration: none;
 }
 [data-theme=swiss] [data-nav] input:checked + label {
@@ -351,7 +351,7 @@
 [data-theme=swiss] [data-nav] label span:focus,
 [data-theme=swiss] [data-nav] a:hover,
 [data-theme=swiss] [data-nav] a:focus {
-  color: #ec0;
+  color: #f3c300;
 }
 @media (max-width: 499px) {
   [data-theme=swiss] [data-nav] input:checked + label span {

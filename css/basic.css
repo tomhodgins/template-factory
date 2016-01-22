@@ -353,6 +353,27 @@ video {
   text-shadow: none !important;
   background-color: #eee8d5 !important;
 }
+[data-theme=code] ::-webkit-input-placeholder {
+  color: rgba(255,255,255,.3);
+}
+[data-theme=code] :-moz-placeholder {
+  color: rgba(255,255,255,.3);
+}
+[data-theme=code] ::-moz-placeholder {
+  color: rgba(255,255,255,.3);
+}
+[data-theme=code] :-ms-input-placeholder {
+  color: rgba(255,255,255,.3);
+}
+[data-theme=code] ::-ms-input-placeholder {
+  color: rgba(255,255,255,.3);
+}
+[data-theme=code] :placeholder-shown {
+  color: rgba(255,255,255,.3);
+}
+[data-theme=code] select {
+  color: rgba(255,255,255,.3);
+}
 [data-theme=code] h1,
 [data-theme=code] h2,
 [data-theme=code] h3,
@@ -421,6 +442,27 @@ video {
   color: #fff;
   text-shadow: #205 1px 1px 1px !important;
   background-color: royalblue !important;
+}
+[data-theme=dark] ::-webkit-input-placeholder {
+  color: rgba(255,255,255,.3);
+}
+[data-theme=dark] :-moz-placeholder {
+  color: rgba(255,255,255,.3);
+}
+[data-theme=dark] ::-moz-placeholder {
+  color: rgba(255,255,255,.3);
+}
+[data-theme=dark] :-ms-input-placeholder {
+  color: rgba(255,255,255,.3);
+}
+[data-theme=dark] ::-ms-input-placeholder {
+  color: rgba(255,255,255,.3);
+}
+[data-theme=dark] :placeholder-shown {
+  color: rgba(255,255,255,.3);
+}
+[data-theme=dark] select {
+  color: rgba(255,255,255,.3);
 }
 [data-theme=dark] h1,
 [data-theme=dark] h2,

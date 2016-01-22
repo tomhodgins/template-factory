@@ -19,7 +19,7 @@
     <input type=tel min=1 name="cc_number" id=cc-number placeholder="Card Number" autocorrect=off>
     <div class=split-input>
       <select name="cc_card_type" id=cardType class=three-quarters>
-        <option value="">Choose Card Type</option>
+        <option value="">Card Type</option>
         <option value="Visa">Visa</option>
         <option value="Mastercard">Mastercard</option>
         <option value="American Express">American Express</option>

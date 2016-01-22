@@ -117,7 +117,10 @@
     text-align: center;
     margin: .5em 0;
   }
-  a,label,input,button {
+  main a,
+  main label,
+  main input,
+  main button {
     width: auto !important;
     font-size: 12pt;
     margin: .25em !important;
