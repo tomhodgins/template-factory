@@ -63,7 +63,7 @@
   <button data-button=outline disabled>disabled</button>
 </aside>
 <h3>Semi-Flat Buttons</h3>
-<p>Enable this style by adding <code>semiflat</code> to the <code>data-button</code> attribute. This style is enabled as default in the <code>date-theme=book</code> and <code>data-theme=rfi</code> themes as well.</p>
+<p>Enable this style by adding <code>semiflat</code> to the <code>data-button</code> attribute. This style is enabled as default in the <code>data-theme=book</code> and <code>data-theme=rfi</code> themes as well.</p>
 <aside>
   <a data-button=semiflat href=#>anchor tag</a>
   <input data-button=semiflat type=button value="input button">
