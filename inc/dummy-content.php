@@ -5,7 +5,7 @@
 <p>Donec fermentum <a href="#" data-tooltip data-title="This is <em>another</em> title" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">tortor tellus aliquet</a> augue sem. Sed eleifend, erat a venenatis euismod, felis arcu tempus quam, imperdiet vestibulum ipsum orci eget dui. Praesent semper commodo urna, vitae sodales tellus aliquet a. Suspendisse varius condimentum enim id ornare. Mauris porttitor interdum sem et convallis. Cras dictum, diam ut feugiat bibendum, <a href="#" data-tooltip data-title="This is <u>another</u> title">tortor tellus aliquet</a> massa, pulvinar posuere tortor enim vitae turpis. Sed ultrices augue turpis, et pellentesque est <a href="#" data-tooltip data-title="Preston Ely" data-caption="The Man. The Legend.<br><img src=http://staticresource.com/prestonIcon.jpg style=width:75px;height:auto;>">tortor tellus aliquet</a> in. Aliquam ac quam nibh. Quisque et fringilla dolor. Nullam massa ipsum, semper convallis purus sit amet, mollis interdum leo. Vivamus ut tempor nunc.</p>
 <blockquote>
   <p><q>This is a blockquote</q></p>
-  <footer>First Last</footer>
+  <cite>First Last</cite>
 </blockquote>
 <h2>List Test</h2>
 <ul>

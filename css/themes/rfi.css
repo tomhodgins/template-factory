@@ -71,7 +71,8 @@
   font-weight: 700;
   font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
 }
-[data-theme=rfi] blockquote footer {
+[data-theme=rfi] blockquote footer,
+[data-theme=rfi] blockquote cite {
   color: #777;
 }
 [data-theme=rfi] a {

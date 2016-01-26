@@ -19,6 +19,24 @@
   text-shadow: none;
   background-color: yellow !important;
 }
+[data-theme=swiss] ::-webkit-input-placeholder {
+  color: rgba(0,0,0,.5);
+}
+[data-theme=swiss] :-moz-placeholder {
+  color: rgba(0,0,0,.5);
+}
+[data-theme=swiss] ::-moz-placeholder {
+  color: rgba(0,0,0,.5);
+}
+[data-theme=swiss] :-ms-input-placeholder {
+  color: rgba(0,0,0,.5);
+}
+[data-theme=swiss] ::-ms-input-placeholder {
+  color: rgba(0,0,0,.5);
+}
+[data-theme=swiss] :placeholder-shown {
+  color: rgba(0,0,0,.5);
+}
 [data-theme=swiss] h1,
 [data-theme=swiss] h2,
 [data-theme=swiss] h3,
@@ -83,9 +101,10 @@
 [data-theme=swiss] [type="tel"],
 [data-theme=swiss] [type^="cc-"],
 [data-theme=swiss] [type="email"] {
-  border-radius: 0;
-  background: white;
-  border-color: white;
+  color: black !important;
+  border-radius: 0 !important;
+  background: white !important;
+  border-color: white !important;
 }
 [data-theme=swiss] select:focus,
 [data-theme=swiss] .split-input > input:focus,
@@ -94,7 +113,8 @@
 [data-theme=swiss] [type="tel"]:focus,
 [data-theme=swiss] [type^="cc-"]:focus,
 [data-theme=swiss] [type="email"]:focus {
-  border-color: black;
+  border-color: black !important;
+  box-shadow: none !important;
 }
 
 /* Flat Notifications */

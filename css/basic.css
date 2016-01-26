@@ -219,14 +219,17 @@ blockquote p {
   font-weight: 500;
   font-style: italic;
 }
-blockquote footer {
+blockquote footer,
+blockquote cite {
+  font-style: normal;
   margin-top: .5em;
   padding: 0;
   color: currentColor;
   font-size: 125%;
   text-align: left;
 }
-blockquote footer:before {
+blockquote footer:before,
+blockquote cite:before {
   content: '— ';
 }
 footer {

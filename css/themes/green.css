@@ -39,7 +39,8 @@
   color: chartreuse;
   font-weight: 600;
 }
-[data-theme=green] blockquote footer {
+[data-theme=green] blockquote footer,
+[data-theme=green] blockquote cite {
   color: darkgreen;
 }
 [data-theme=green] a {
