@@ -23,7 +23,7 @@
   <em>&lsquo;Cdn&rsquo;</em> using the data attribute <code>data-header="Cdn"</code>
 </ul>
 <p>This plugin will only work if your <code>&lt;table></code> is formatted properly.</p>
-<pre>&lt;table>
+<pre><code class=html>&lt;table>
   &lt;caption>Title&lt;/caption>
   &lt;thead>
     &lt;tr>
@@ -40,7 +40,7 @@
       &lt;th>Footer&lt;/th>
     &lt;/tr>
   &lt;/tfoot>
-&lt;/table></pre>
+&lt;/table></code></pre>
 <table>
   <caption>Default Table</caption>
   <thead>
@@ -175,4 +175,9 @@
     </tr>
   </tfoot>
 </table>
+
+<link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/solarized_dark.min.css" rel=stylesheet>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
 <?php include("../../inc/footer.php"); ?>

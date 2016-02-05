@@ -141,7 +141,7 @@ hr {
   height: 1px;
   background: #ccc;
 }
-*:not(pre) > code {
+:not(pre) > code {
   color: #333;
   background: #def;
   display: inline-block;
@@ -154,7 +154,7 @@ hr {
   max-width: 100%;
   word-break: break-word;
 }
-*:not(pre) > code a {
+:not(pre) > code a {
   color: indigo;
 }
 pre {
@@ -175,6 +175,9 @@ pre {
               inset rgba(255,255,255,.15) 0 1px 0,
               rgba(0,0,0,.3) 0 1px .5px,
               rgba(0,0,0,.15) 0 3px 5px;
+}
+pre > code {
+  box-shadow: none !important;
 }
 li {
   font-size: 12pt;
@@ -219,8 +222,14 @@ blockquote p {
   font-weight: 500;
   font-style: italic;
 }
+blockquote li {
+  color: #333;
+  font-size: 160%;
+  font-style: italic;
+}
 blockquote footer,
 blockquote cite {
+  display: block;
   font-style: normal;
   margin-top: .5em;
   padding: 0;
@@ -320,6 +329,10 @@ video {
 [data-theme=book] blockquote p {
   color: #632;
 }
+[data-theme=book] blockquote li {
+  color: #632;
+  font-size: 160%;
+}
 [data-theme=book] a {
   color: maroon;
 }
@@ -410,6 +423,10 @@ video {
 [data-theme=code] blockquote p {
   color: #eee8d5;
 }
+[data-theme=code] blockquote li {
+  color: #eee8d5;
+  font-size: 160%;
+}
 [data-theme=code] hr {
   background: #839496;
 }
@@ -498,6 +515,10 @@ video {
 }
 [data-theme=dark] blockquote p {
   color: #eee;
+}
+[data-theme=dark] blockquote li {
+  color: #eee;
+  font-size: 160%;
 }
 [data-theme=dark] a {
   color: royalblue;

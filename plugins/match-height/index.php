@@ -8,10 +8,8 @@
 <h2>Matching element height in pure JS</h2>
 <p>This plugin will measure the height of a group of elements and assign each of them the highest value.</p>
 <p>To group elements together, assign each element a <code>data-col</code> attribute with the same value. This way, the plugin can calculate the heights of different groups of elements on the same page.</p>
-<pre>
-&lt;div data-col=a>&lt;/div>&lt;div data-col=a>&lt;/div>
-&lt;div data-col=b>&lt;/div>&lt;div data-col=b>&lt;/div>
-</pre>
+<pre><code class=html>&lt;div data-col=a>&lt;/div>&lt;div data-col=a>&lt;/div>
+&lt;div data-col=b>&lt;/div>&lt;div data-col=b>&lt;/div></code></pre>
 <p>In this example both <code>data-col=a</code> elements will be matched in height, and both <code>data-col=b</code> will be matched to each other as well.</p>
 <h3>data-col=a group</h3>
 <div>
@@ -55,4 +53,9 @@
     clear: both;
   }
 </style>
+
+<link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/solarized_dark.min.css" rel=stylesheet>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
 <?php include("../../inc/footer.php"); ?>

@@ -8,11 +8,11 @@
 <h2>Responsive Notifications in simple HTML, CSS, and JS</h2>
 <h3>Usage</h3>
 <p>Pure CSS and JavaScript tooltips for any site using the following formatting:</p>
-<pre>data-tooltip
+<pre><code class=html>data-tooltip
 data-title=""
-data-caption=""</pre>
+data-caption=""</code></pre>
 <p>The title and the caption can both include HTML, and only the title is required. Here's an example <code>&lt;span></code> with a tooltip on it. Live demos below!</p>
-<pre>&lt;span data-tooltip data-title="This is a Title" data-caption="This is a caption">&lt;/span></pre>
+<pre><code class=html>&lt;span data-tooltip data-title="This is a Title" data-caption="This is a caption">&lt;/span></code></pre>
 <blockquote>
   <p style=font-size:200%>If your HTML includes quotes, make sure to escape them properly so they don't break the attribute they are being contained within!</p>
 </blockquote>
@@ -22,4 +22,9 @@ data-caption=""</pre>
 <p><img src="http://staticresource.com/prestonIcon.jpg" data-tooltip data-title="Preston Ely" data-caption="The Man. The Legend.<br><img src=http://staticresource.com/prestonIcon.jpg style=width:75px;height:auto;>" class="float-none"></p>
 <p>Vestibulum malesuada pulvinar dolor vitae eleifend. Nunc maximus quam et tempus tempus. Cras tempus nibh quam, vitae sodales nisi egestas laoreet. Aenean sed tincidunt ex. Pellentesque blandit pharetra arcu, non volutpat nunc dapibus ut. Suspendisse convallis at nunc sit amet euismod. Suspendisse non sem elit. Ut pharetra enim in purus porttitor facilisis mollis ut nisl. Sed varius semper sollicitudin. Nullam aliquam sodales pulvinar. Nam tellus sapien, hendrerit ac mollis eget, rhoncus a diam.</p>
 <p>Nunc eu lorem vitae nisl laoreet imperdiet. Etiam nunc velit, auctor ut felis id, vestibulum efficitur quam. Pellentesque commodo sit amet velit ut accumsan. Ut malesuada lacinia arcu, volutpat accumsan lorem rutrum ac. Integer tincidunt dui a neque accumsan, ut hendrerit leo cursus. Nulla sed mollis tortor, vitae luctus odio. Praesent gravida sed mauris ac laoreet. Pellentesque a lorem purus. Ut tincidunt ante ac nibh maximus, et suscipit risus sagittis. Nullam rhoncus augue eu semper ultrices. Quisque nec mollis ex. Suspendisse potenti.</p>
+
+<link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/solarized_dark.min.css" rel=stylesheet>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
 <?php include("../../inc/footer.php"); ?>

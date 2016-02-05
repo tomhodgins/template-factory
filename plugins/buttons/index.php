@@ -9,10 +9,10 @@
 <p>Add <code>green</code>, <code>red</code>, <code>blue</code>, <code>grey</code> and <code>outline</code> values to the <code>data-button</code> attribute for different color themes.</p>
 <p>Add a class of <code>disabled</code>, or add a <code>disabled</code> or <code>hidden</code> attribute to an element to display a disabled button.</p>
 <h3>Examples</h3>
-<pre>&lt;a data-button href=#>link&lt;/a>
+<pre><code class=html>&lt;a data-button href=#>link&lt;/a>
 &lt;label data-button=blue>label&lt;/label>
 &lt;input data-button=green type=button value=Button>
-&lt;a data-button=red href=# disabled>disabled&lt;/a></pre>
+&lt;a data-button=red href=# disabled>disabled&lt;/a></code></pre>
 <h3>Regular Buttons</h3>
 <aside>
   <a data-button href=#>anchor tag</a>
@@ -126,4 +126,9 @@
     margin: .25em !important;
   }
 </style>
+
+<link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/solarized_dark.min.css" rel=stylesheet>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
 <?php include("../../inc/footer.php"); ?>

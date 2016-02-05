@@ -259,6 +259,9 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   box-shadow: inset rgba(255,255,255,.3) 0 1px 0;
   font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
 }
+[data-theme=rfi] [data-button] {
+  font-size: 12pt !important;
+}
 [data-theme=rfi] [data-button*=blue] {
   text-shadow: #0c65b3 1px 1px 0 !important;
   border: 1px solid #06f !important;
@@ -312,4 +315,39 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
   background: #7a7a7a !important;
   border: 1px solid #555 !important;
   border-bottom-color: #555 !important;
+}
+/* Light Grey Theme */
+[data-theme=rfi] [data-button*=lightgrey] {
+  color: #888 !important;
+  text-shadow: rgba(0,0,0,.1) 1px 1px 0 !important;
+  border: 1px solid #bbb !important;
+  border-bottom-color: #aaa !important;
+  background: #eee !important;
+  background: -moz-linear-gradient(top, #efefef 0%, #eee 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(100%,#eee)) !important;
+  background: -webkit-linear-gradient(top, #efefef 0%,#eee 100%) !important;
+  background: -o-linear-gradient(top, #efefef 0%,#eee 100%) !important;
+  background: -ms-linear-gradient(top, #efefef 0%,#eee 100%) !important;
+  background: linear-gradient(to bottom, #efefef 0%,#eee 100%) !important;
+}
+[data-theme=rfi] [data-button*=lightgrey]:hover,
+[data-theme=rfi] [data-button*=lightgrey]:focus {
+  background: #efefef !important;
+  background: -moz-linear-gradient(top, #efefef 0%, #bababa 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(100%,#bababa)) !important;
+  background: -webkit-linear-gradient(top, #efefef 0%,#bababa 100%) !important;
+  background: -o-linear-gradient(top, #efefef 0%,#bababa 100%) !important;
+  background: -ms-linear-gradient(top, #efefef 0%,#bababa 100%) !important;
+  background: linear-gradient(to bottom, #efefef 0%,#bababa 100%) !important;
+}
+[data-theme=rfi] [data-button*=grey]:active {
+  background: #eee !important;
+  background: -moz-linear-gradient(top, #bababa 0%, #efefef 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bababa), color-stop(100%,#efefef)) !important;
+  background: -webkit-linear-gradient(top, #bababa 0%,#efefef 100%) !important;
+  background: -o-linear-gradient(top, #bababa 0%,#efefef 100%) !important;
+  background: -ms-linear-gradient(top, #bababa 0%,#efefef 100%) !important;
+  background: linear-gradient(to bottom, #bababa 0%,#efefef 100%) !important;
+  border: 1px solid #aaa !important;
+  border-bottom-color: #999 !important;
 }
