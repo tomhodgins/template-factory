@@ -3,6 +3,11 @@ form {
   margin: 0;
   padding: 0;
 }
+form:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 form fieldset {
   border: none;
   padding: 0;
