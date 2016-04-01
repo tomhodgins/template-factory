@@ -20,6 +20,7 @@ And via additional stylesheets there are also:
 - [`data-theme=green`](http://staticresource.com/template/themes/green.php)
 - [`data-theme=swiss`](http://staticresource.com/template/themes/swiss.php)
 - [`data-theme=rfi`](http://staticresource.com/template/themes/rfi.php)
+- [`data-theme=preston](http://staticresource.com/template/themes/preston.php)
 
 The second type of thing being developed at the Template Factory are CSS and JavaScript plugins that are intended to be used across multiple sites. What better environment to test these plugins than in a multi-themed website. These plugins are all located inside their own folders in the `plugins/` folder, often with their own documentation labelled as `index.php`.
 

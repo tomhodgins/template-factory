@@ -14,5 +14,5 @@
 <a href=# data-button="blue" class="disabled">blue button</a>
 <a href=# data-button="grey" class="disabled">grey button</a>
 <a href=# data-button="lightgrey" class="disabled">lightgrey button</a>
-<footer>&copy; <script>document.write(new Date().getFullYear())</script> Tommy Hodgins</footer>
+<footer>&copy; <script>document.write(new Date().getFullYear())</script> &bull; <a href=https://github.com/tomhodgins/template-factory>view on Github</a></footer>
 <?php include("../inc/footer.php"); ?>

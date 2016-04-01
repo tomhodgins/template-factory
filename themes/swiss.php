@@ -15,5 +15,5 @@
 <input data-button type=button value="Notification with HTML" onclick="notification('<strong>Strong</strong> and <em>emphasized</em> text','warning')">
 <input data-button=grey type=button value="Notification with image" onclick="notification('Image inside notification<br><img src=//placehold.it/250x100>','option')"></p>
 <?php include("../plugins/form/order-form.php"); ?>
-<footer>&copy; <script>document.write(new Date().getFullYear())</script> Tommy Hodgins</footer>
+<footer>&copy; <script>document.write(new Date().getFullYear())</script> &bull; <a href=https://github.com/tomhodgins/template-factory>view on Github</a></footer>
 <?php include("../inc/footer.php"); ?>

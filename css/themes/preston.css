@@ -1,36 +1,75 @@
 /* Preston Theme */
-[data-theme*=preston] *:not(pre,code,[data-button]) {
+[data-theme=preston] *:not(pre,code,[data-button]) {
   font-family: 'Lora', 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 }
-[data-theme*=preston],
-[data-theme*=preston] body {
+[data-theme=preston],
+[data-theme=preston] body {
   background: white;
 }
-[data-theme*=preston] h1,
-[data-theme*=preston] h2,
-[data-theme*=preston] h3,
-[data-theme*=preston] h4,
-[data-theme*=preston] h5,
-[data-theme*=preston] h6 {
+[data-theme=preston] a {
+  color: mediumblue;
+}
+[data-theme=preston] a:hover,
+[data-theme=preston] a:focus {
+  color: blue;
+}
+[data-theme=preston] h1,
+[data-theme=preston] h2,
+[data-theme=preston] h3,
+[data-theme=preston] h4,
+[data-theme=preston] h5,
+[data-theme=preston] h6 {
   font-family: 'Raleway', 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif !important;
   font-weight: 900;
   color: #111;
   text-shadow: none;
 }
-[data-theme*=preston] main > p,
-[data-theme*=preston] main > ul li,
-[data-theme*=preston] main > ol li {
+[data-theme=preston] main > p,
+[data-theme=preston] main > ul li,
+[data-theme=preston] main > ol li {
   font-size: 12pt;
-  line-height: 1.5;
+  line-height: 1.7;
   font-family: 'Lora', 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 }
-[data-theme*=preston] main > p + p {
+[data-theme=preston] main > p + p {
   margin-top: 1em;
 }
+[data-theme=preston] blockquote p,
+[data-theme=preston] blockquote q {
+  font-family: 'Lora', 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+  font-weight: 300;
+}
+[data-theme=preston] blockquote cite,
+[data-theme=preston] blockquote footer {
+  font-family: 'Lora', 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+  font-weight: 700;
+}
+[data-theme=preston] form select,
+[data-theme=preston] form .split-input > input,
+[data-theme=preston] form .split-input > select,
+[data-theme=preston] form [type="text"],
+[data-theme=preston] form [type="tel"],
+[data-theme=preston] form [type^="cc-"],
+[data-theme=preston] form [type="email"],
+[data-theme=preston] form textarea {
+  border: 1px solid rgba(0,0,0,.15);
+  box-shadow: none;
+}
+[data-theme=preston] form select:focus,
+[data-theme=preston] form .split-input > input:focus,
+[data-theme=preston] form .split-input > select:focus,
+[data-theme=preston] form [type="text"]:focus,
+[data-theme=preston] form [type="tel"]:focus,
+[data-theme=preston] form [type^="cc-"]:focus,
+[data-theme=preston] form [type="email"]:focus,
+[data-theme=preston] form textarea:focus {
+  border-color: orange;
+  box-shadow: #fc0 0 0 3px;
+}
 @media (min-width: 600px) {
-  [data-theme*=preston] main > p,
-  [data-theme*=preston] main > ul li,
-  [data-theme*=preston] main > ol li {
+  [data-theme=preston] main > p,
+  [data-theme=preston] main > ul li,
+  [data-theme=preston] main > ol li {
     font-size: 14pt;
   }
 }

@@ -23,6 +23,7 @@
   <li><a href=themes/green.php data-button>Green style</a>
   <li><a href=themes/swiss.php data-button=blue>Swiss style</a>
   <li><a href=themes/rfi.php data-button=green>RFI Style</a>
+  <li><a href=themes/rfi.php data-button=green>Preston Style</a>
 </ul>
 <p>The second type of thing being developed at the Template Factory are CSS and JavaScript plugins that are intended to be used across multiple sites. What better environment to test these plugins than in a multi-themed website. These plugins are all located inside their own folders in the <code>plugins/</code> folder, often with their own documentation labelled as <code>index.php</code>.</p>
 <h3>Plugins</h3>
@@ -70,5 +71,5 @@
 </ul>
 <pre>&lt;input onclick=spawnModal('demo')>
 &lt;?php $modal = "demo"; include("plugins/modals/modal.php") ?></pre>
-<footer>&copy; <script>document.write(new Date().getFullYear())</script> Tommy Hodgins</footer>
+<footer>&copy; <script>document.write(new Date().getFullYear())</script> &bull; <a href=https://github.com/tomhodgins/template-factory>view on Github</a></footer>
 <?php include("inc/footer.php"); ?>
