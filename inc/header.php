@@ -27,6 +27,7 @@
   <link href=<?php echo $site; ?>/css/themes/green.css rel=stylesheet>
   <link href=<?php echo $site; ?>/css/themes/swiss.css rel=stylesheet>
   <link href=<?php echo $site; ?>/css/themes/rfi.css rel=stylesheet>
+  <link href=<?php echo $site; ?>/css/themes/preston.css rel=stylesheet>
 </head>
 <body class=<?php echo "$template"; ?>>
   <?php include("navigation.php"); ?>

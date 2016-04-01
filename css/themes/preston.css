@@ -1,0 +1,39 @@
+/* Preston Theme */
+[data-theme*=preston] *:not(pre,code,[data-button]) {
+  font-family: 'Lora', 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+}
+[data-theme*=preston],
+[data-theme*=preston] body {
+  background: white;
+}
+[data-theme*=preston] h1,
+[data-theme*=preston] h2,
+[data-theme*=preston] h3,
+[data-theme*=preston] h4,
+[data-theme*=preston] h5,
+[data-theme*=preston] h6 {
+  font-family: 'Raleway', 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif !important;
+  font-weight: 900;
+  color: #111;
+  text-shadow: none;
+}
+[data-theme*=preston] main > p,
+[data-theme*=preston] main > ul li,
+[data-theme*=preston] main > ol li {
+  font-size: 12pt;
+  line-height: 1.5;
+  font-family: 'Lora', 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+}
+[data-theme*=preston] main > p + p {
+  margin-top: 1em;
+}
+@media (min-width: 600px) {
+  [data-theme*=preston] main > p,
+  [data-theme*=preston] main > ul li,
+  [data-theme*=preston] main > ol li {
+    font-size: 14pt;
+  }
+}
+[data-modal] article {
+  padding: 1em;
+}

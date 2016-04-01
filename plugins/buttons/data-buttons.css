@@ -248,12 +248,15 @@ Add a class of `disabled`, or add a `disabled` or `hidden` attribute to an eleme
 [data-button*="semiflat"]:not([data-button=outline]),
 [data-theme=book] [data-button]:not([data-button=outline]),
 [data-theme=rfi] [data-button]:not([data-button=outline]),
+[data-theme=preston] [data-button]:not([data-button=outline]),
 [data-button*="semiflat"]:not([data-button=outline]):hover,
 [data-theme=book] [data-button]:not([data-button=outline]):hover,
 [data-theme=rfi] [data-button]:not([data-button=outline]):hover,
+[data-theme=preston] [data-button]:not([data-button=outline]):hover,
 [data-button*="semiflat"]:not([data-button=outline]):focus,
 [data-theme=book] [data-button]:not([data-button=outline]):focus,
-[data-theme=rfi] [data-button]:not([data-button=outline]):focus {
+[data-theme=rfi] [data-button]:not([data-button=outline]):focus,
+[data-theme=preston] [data-button]:not([data-button=outline]):focus {
   font-weight: 600;
   text-shadow: rgba(0,0,0,.2) 1px 1px 0;
   box-shadow: inset rgba(255,255,255,.3) 0 1px 0;

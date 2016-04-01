@@ -15,6 +15,7 @@
       <a href=<?php echo $site; ?>/themes/green.php>Green Style</a>
       <a href=<?php echo $site; ?>/themes/swiss.php>Swiss Style</a>
       <a href=<?php echo $site; ?>/themes/rfi.php>RFI Style</a>
+      <a href=<?php echo $site; ?>/themes/preston.php>Preston Style</a>
     </div>
   </label>
   <input type=radio name=topNav id=plugins>

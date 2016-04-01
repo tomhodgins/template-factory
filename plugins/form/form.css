@@ -18,7 +18,8 @@ form .split-input > select,
 form [type="text"],
 form [type="tel"],
 form [type^="cc-"],
-form [type="email"] {
+form [type="email"],
+form textarea {
   float: left;
   margin: 0 0 2% 0;
   margin-bottom: 2% !important;
@@ -67,6 +68,9 @@ form .split-input select:active {
 }
 form select::-ms-expand {
   display: none;
+}
+form textarea {
+  min-height: 5em;
 }
 form [class="three-quarters"] {
   width: 74% !important;

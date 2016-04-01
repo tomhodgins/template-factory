@@ -13,5 +13,4 @@ function destroyModal(modal,follow){
   if (follow !== undefined) {
     spawnModal(follow)
   }
-
 }
