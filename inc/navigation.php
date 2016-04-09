@@ -31,6 +31,7 @@
       <a href=<?php echo $site; ?>/plugins/buttons>Buttons</a>
       <a href=<?php echo $site; ?>/plugins/nav>Responsive Nav</a>
       <a href=<?php echo $site; ?>/plugins/match-height>Match Height</a>
+      <a href=<?php echo $site; ?>/plugins/icons>Canvas Icons</a>
     </div>
   </label>
   <!-- /Menu Loop -->

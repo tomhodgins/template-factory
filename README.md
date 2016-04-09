@@ -37,6 +37,7 @@ Included plugins are:
 - [modals](http://staticresource.com/template/plugins/modals)
 - [CSS buttons](http://staticresource.com/template/plugins/buttons)
 - [Match Height](http://staticresource.com/template/plugins/match-height)
+- [Canvas Icons](http://staticresource.com/template/plugins/icons)
 
 ## How to build a website with the Template Factory
 
