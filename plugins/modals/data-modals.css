@@ -54,7 +54,7 @@
   background: white;
   z-index: 2000;
 }
-[data-modal] article button:first-of-type {
+[data-modal] article [data-close] {
   position: absolute;
   top: 0;
   right: 0;
@@ -76,11 +76,11 @@
   cursor: pointer;
   z-index: 9999;
 }
-[data-modal] article button:first-of-type:hover,
-[data-modal] article button:first-of-type:focus {
+[data-modal] article [data-close]:hover,
+[data-modal] article [data-close]:focus {
   color: #c00;
 }
-[data-theme=dark] article button:first-of-type {
+[data-theme=dark] article [data-close] {
   color: rgba(255,255,255,.5);
 }
 [data-modal] [data-theme] {

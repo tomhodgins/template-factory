@@ -12,106 +12,122 @@ form fieldset {
   border: none;
   padding: 0;
 }
-form select,
-form .split-input > input,
-form .split-input > select,
-form [type="text"],
-form [type="tel"],
-form [type^="cc-"],
-form [type="email"],
-form textarea {
-  float: left;
-  margin: 0 0 2% 0;
-  margin-bottom: 2% !important;
-  padding: 5px 8px;
-  width: 100% !important;
-  height: 40px;
-  outline: none !important;
-  border: 1px solid rgba(255,255,255,.7);
-  border-radius: 2px;
-  background: rgba(255,255,255,.5);
-  box-shadow: rgba(0,0,0,.15) 0 1px 0;
-  color: rgba(0,0,0,.7);
-  font-weight: 400;
-  font-size: 12pt;
-  transition: all .2s ease-in-out;
-  -webkit-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
-}
-form select:focus,
-form .split-input > *:focus,
-form [type="text"]:focus,
-form [type="tel"]:focus,
-form [type^="cc-"]:focus,
-form [type="email"]:focus {
-  outline: none;
-  border-color: orange;
-  box-shadow: #fc0 0 0 3px;
-}
-form select,
-form .split-input select {
-  color: rgba(0,0,0,.5);
-  background: rgba(255,255,255,.5);
-  padding-right: 1.5em;
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAAjElEQVR4Ae2QxbkCARDGMlsB2sxe1ovCKR0uuOTh9jL3fH+Gu/DPP236dG+8Pm1IGTJmdMONGZJCQs78xstJAOJGVU6wJmd2lWRGzg5BcYVqRkHAoepS0aHGAz3KV/mao6ryT5qSQCmY6YsdD5QoCZQoCZSoG1bpGle5Rii3NI6v8jVO0Cwv+OefT2IBOYykNaMbWusAAAAASUVORK5CYII=') !important;
-  background-repeat: no-repeat !important;
-  background-position: calc(100% - .5em) 50% !important;
-  background-size: 12px !important;
-  text-indent: 0.01px;
-  text-overflow: '';
-}
-form select:active,
-form .split-input select:active {
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAABBklEQVR4Ae3PQY7TQBCG0VfNLLgGd2SBhO207SBxuZgzcAsWIxfbHiuTFsnsyCd505Kf/gof1P8NPaHfX3z26rFe/IlfX7N6yT2kcFfFa9TYPuWYJw8Vc6yxyTCp7l9ULTIuIOo+3eVkWVSIDQg1x3+mMlZVthAlTyYSIZuvfWkLlpjt0ELIasq4AbUvaVEb9qKpRN3HkILDr8eXWLPa34NEMeegs4g4O7UMsTmWszHjBpRWJ4fiwrGiGt87Datqpw9RzIbri7RHdSFYDOKwKONscqwDRS4xvF3kbJJ96OqBukf1IVhzAOJshDuhKJb8Tvww2d0oNp1K/iS+2elDj/eEntCH9BdocplPRQvKAQAAAABJRU5ErkJggg==');
-}
-form select::-ms-expand {
-  display: none;
-}
-form textarea {
-  min-height: 5em;
-}
-form [class="three-quarters"] {
-  width: 74% !important;
-}
-form [class="quarter"] {
-  margin-left: 2%;
-  width: 24% !important;
-}
-form .split-input {
-  float: left;
-  width: 100%;
-}
-form .split-input input,
-form .split-input select {
-  width: 49% !important;
-}
-form .split-input input:nth-child(even),
-form .split-input select:nth-child(even) {
-  margin-left: 2%;
-}
-form .tooltip-inner {
-  padding: 7px;
-  border-radius: 2px;
-  color: #fff;
-  font-weight: 300;
-  font-size: 12pt;
-}
-form [type="number"]::-webkit-inner-spin-button,
-form [type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-form [data-button] {
-  width: auto !important;
-  padding: .5em .75em !important;
-  font-size: 18pt !important;
-  font-weight: 700 !important;
-  font-style: italic !important;
-  float: none !important;
-  display: block !important;
-  margin: 0 auto .5em auto !important;
+@element 'form' {
+  $this select,
+  $this .split-input > input,
+  $this .split-input > select,
+  $this [type="text"],
+  $this [type="tel"],
+  $this [type^="cc-"],
+  $this [type="email"],
+  $this textarea {
+    float: left;
+    margin: 0 0 2% 0;
+    margin-bottom: 2% !important;
+    padding: 5px 8px;
+    width: 100% !important;
+    height: 40px;
+    outline: none !important;
+    border: 1px solid rgba(255,255,255,.7);
+    border-radius: 2px;
+    background: rgba(255,255,255,.5);
+    box-shadow: rgba(0,0,0,.15) 0 1px 0;
+    color: rgba(0,0,0,.7);
+    font-weight: 400;
+    font-size: 12pt;
+    transition: all .2s ease-in-out;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+  }
+  $this select:focus,
+  $this .split-input > *:focus,
+  $this [type="text"]:focus,
+  $this [type="tel"]:focus,
+  $this [type^="cc-"]:focus,
+  $this [type="email"]:focus {
+    outline: none;
+    border-color: orange;
+    box-shadow: #fc0 0 0 3px;
+  }
+  $this select,
+  $this .split-input select {
+    color: rgba(0,0,0,.5);
+    background: rgba(255,255,255,.5);
+    padding-right: 1.5em;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAAjElEQVR4Ae2QxbkCARDGMlsB2sxe1ovCKR0uuOTh9jL3fH+Gu/DPP236dG+8Pm1IGTJmdMONGZJCQs78xstJAOJGVU6wJmd2lWRGzg5BcYVqRkHAoepS0aHGAz3KV/mao6ryT5qSQCmY6YsdD5QoCZQoCZSoG1bpGle5Rii3NI6v8jVO0Cwv+OefT2IBOYykNaMbWusAAAAASUVORK5CYII=') !important;
+    background-repeat: no-repeat !important;
+    background-position: calc(100% - .5em) 50% !important;
+    background-size: 12px !important;
+    text-indent: 0.01px;
+    text-overflow: '';
+  }
+  $this select:active,
+  $this .split-input select:active {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAABBklEQVR4Ae3PQY7TQBCG0VfNLLgGd2SBhO207SBxuZgzcAsWIxfbHiuTFsnsyCd505Kf/gof1P8NPaHfX3z26rFe/IlfX7N6yT2kcFfFa9TYPuWYJw8Vc6yxyTCp7l9ULTIuIOo+3eVkWVSIDQg1x3+mMlZVthAlTyYSIZuvfWkLlpjt0ELIasq4AbUvaVEb9qKpRN3HkILDr8eXWLPa34NEMeegs4g4O7UMsTmWszHjBpRWJ4fiwrGiGt87Datqpw9RzIbri7RHdSFYDOKwKONscqwDRS4xvF3kbJJ96OqBukf1IVhzAOJshDuhKJb8Tvww2d0oNp1K/iS+2elDj/eEntCH9BdocplPRQvKAQAAAABJRU5ErkJggg==');
+  }
+  $this select::-ms-expand {
+    display: none;
+  }
+  $this textarea {
+    min-height: 5em;
+  }
+  $this select[class="three-quarters"],
+  $this .split-input > input[class="three-quarters"],
+  $this .split-input > select[class="three-quarters"],
+  $this [type="text"][class="three-quarters"],
+  $this [type="tel"][class="three-quarters"],
+  $this [type^="cc-"][class="three-quarters"],
+  $this [type="email"][class="three-quarters"],
+  $this textarea[class="three-quarters"] {
+    width: 74% !important;
+  }
+  $this select[class="quarter"],
+  $this .split-input > input[class="quarter"],
+  $this .split-input > select[class="quarter"],
+  $this [type="text"][class="quarter"],
+  $this [type="tel"][class="quarter"],
+  $this [type^="cc-"][class="quarter"],
+  $this [type="email"][class="quarter"],
+  $this textarea[class="quarter"] {
+    margin-left: 2% !important;
+    width: 24% !important;
+  }
+  $this .split-input {
+    float: left;
+    width: 100%;
+  }
+  $this .split-input input,
+  $this .split-input select {
+    width: 49% !important;
+  }
+  $this .split-input input:nth-child(even),
+  $this .split-input select:nth-child(even) {
+    margin-left: 2%;
+  }
+  $this .tooltip-inner {
+    padding: 7px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 12pt;
+  }
+  $this [type="number"]::-webkit-inner-spin-button,
+  $this [type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  $this [data-button] {
+    width: auto !important;
+    padding: .5em .75em !important;
+    font-size: 18pt !important;
+    font-weight: 700 !important;
+    font-style: italic !important;
+    float: none !important;
+    display: block !important;
+    margin: 1em auto .5em auto !important;
+  }
 }
 @element 'form' and (min-width: 450px) {
   $this select,
@@ -146,13 +162,6 @@ form [data-button] {
   $this .split-input input:nth-child(even),
   $this .split-input select:nth-child(even) {
     margin-left: 4%;
-  }
-  $this .split-input [class="three-quarters"] {
-    width: 73% !important;
-  }
-  $this .split-input input[class="quarter"] {
-    margin-left: 4% !important;
-    width: 23%  !important;
   }
   $this .lockit {
     position: relative;
