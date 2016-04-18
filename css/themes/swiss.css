@@ -103,7 +103,7 @@
 [data-theme=swiss] [type="email"] {
   color: black !important;
   border-radius: 0 !important;
-  background: white !important;
+  background-color: white !important;
   border-color: white !important;
 }
 [data-theme=swiss] select:focus,

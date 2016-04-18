@@ -1,5 +1,5 @@
 /* Preston Theme */
-[data-theme=preston] *:not(pre,code,[data-button]) {
+[data-theme=preston] {
   font-family: 'Lora', 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 }
 [data-theme=preston],
