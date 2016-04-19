@@ -1,33 +1,45 @@
 /* Form Styles */
-form {
-  margin: 0;
-  padding: 0;
-}
-form:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-form fieldset {
-  border: none;
-  padding: 0;
-}
 @element 'form' {
+  $this,
+  $this * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+  }
+  $this {
+    font-size: 10pt;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  $this:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  $this fieldset {
+    border: none;
+    padding: 0;
+  }
   $this select,
   $this .split-input > input,
   $this .split-input > select,
-  $this [type="text"],
-  $this [type="tel"],
-  $this [type^="cc-"],
-  $this [type="email"],
+  $this input,
   $this textarea {
     float: left;
     margin: 0 0 2% 0;
-    margin-bottom: 2% !important;
+    margin-bottom: 2%;
     padding: 5px 8px;
-    width: 100% !important;
+    width: 49%;
     height: 40px;
-    outline: none !important;
+    outline: none;
     border: 1px solid rgba(255,255,255,.7);
     border-radius: 2px;
     background: rgba(255,255,255,.5);
@@ -43,10 +55,8 @@ form fieldset {
   }
   $this select:focus,
   $this .split-input > *:focus,
-  $this [type="text"]:focus,
-  $this [type="tel"]:focus,
-  $this [type^="cc-"]:focus,
-  $this [type="email"]:focus {
+  $this input:focus,
+  $this textarea:focus {
     outline: none;
     border-color: orange;
     box-shadow: #fc0 0 0 3px;
@@ -73,37 +83,45 @@ form fieldset {
   $this textarea {
     min-height: 5em;
   }
-  $this select[class="three-quarters"],
-  $this .split-input > input[class="three-quarters"],
-  $this .split-input > select[class="three-quarters"],
-  $this [type="text"][class="three-quarters"],
-  $this [type="tel"][class="three-quarters"],
-  $this [type^="cc-"][class="three-quarters"],
-  $this [type="email"][class="three-quarters"],
-  $this textarea[class="three-quarters"] {
-    width: 74% !important;
+  $this select[class=three-quarters],
+  $this input[class=three-quarters],
+  $this textarea[class=three-quarters] {
+    width: 74%;
   }
-  $this select[class="quarter"],
-  $this .split-input > input[class="quarter"],
-  $this .split-input > select[class="quarter"],
-  $this [type="text"][class="quarter"],
-  $this [type="tel"][class="quarter"],
-  $this [type^="cc-"][class="quarter"],
-  $this [type="email"][class="quarter"],
-  $this textarea[class="quarter"] {
+  $this select[class=quarter],
+  $this input[class=quarter],
+  $this textarea[class=quarter] {
     margin-left: 2% !important;
-    width: 24% !important;
+    width: 24%;
+  }
+  $this .split-input > select[class=three-quarters],
+  $this .split-input > input[class=three-quarters],
+  $this .split-input > textarea[class=three-quarters] {
+    width: 73%;
+  }
+  $this .split-input > select[class=quarter],
+  $this .split-input > input[class=quarter],
+  $this .split-input > textarea[class=quarter] {
+    margin-left: 4% !important;
+    width: 23%;
   }
   $this .split-input {
     float: left;
-    width: 100%;
+    width: 49%;
+    margin-bottom: 2%;
   }
-  $this .split-input input,
-  $this .split-input select {
-    width: 49% !important;
+  $this .split-input > input,
+  $this .split-input > select {
+    margin-bottom: 0;
+    width: 48%;
   }
   $this .split-input input:nth-child(even),
   $this .split-input select:nth-child(even) {
+    margin-left: 2%;
+  }
+  $this select:nth-child(even),
+  $this input:nth-child(even),
+  $this .split-input:nth-child(even) {
     margin-left: 2%;
   }
   $this .tooltip-inner {
@@ -113,55 +131,19 @@ form fieldset {
     font-weight: 300;
     font-size: 12pt;
   }
-  $this [type="number"]::-webkit-inner-spin-button,
-  $this [type="number"]::-webkit-outer-spin-button {
+  $this [type=number]::-webkit-inner-spin-button,
+  $this [type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
   }
   $this [data-button] {
-    width: auto !important;
-    padding: .5em .75em !important;
-    font-size: 18pt !important;
-    font-weight: 700 !important;
-    font-style: italic !important;
-    float: none !important;
-    display: block !important;
-    margin: 1em auto .5em auto !important;
-  }
-}
-@element 'form' and (min-width: 450px) {
-  $this select,
-  $this .split-input,
-  $this .split-input > *,
-  $this [type="text"],
-  $this [type="tel"],
-  $this [type^="cc-"],
-  $this [type="email"],
-  $this [type="button"] {
-    width: 49% !important;
-    margin-bottom: 2% !important;
-  }
-  $this .split-input {
-    margin-bottom: 2% !important;
-  }
-  $this .split-input > input,
-  $this .split-input > select {
-    margin-bottom: 0 !important;
-    width: 48% !important;
-  }
-  $this .full-width {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-    width: 100% !important;
-  }
-  $this select:nth-child(even),
-  $this input:nth-child(even),
-  $this .split-input:nth-child(even) {
-    margin-left: 2%;
-  }
-  $this .split-input input:nth-child(even),
-  $this .split-input select:nth-child(even) {
-    margin-left: 4%;
+    width: auto;
+    padding: .5em .75em;
+    font-size: 18pt;
+    font-weight: 700;
+    font-style: italic;
+    display: block;
+    margin: 1em auto .5em auto;
   }
   $this .lockit {
     position: relative;
@@ -179,14 +161,64 @@ form fieldset {
     right: 0;
   }
 }
+@element 'form' and (max-width: 450px) {
+  $this select,
+  $this .split-input,
+  $this .split-input > *,
+  $this input {
+    width: 100%;
+  }
+  $this .split-input {
+    margin-bottom: 0;
+  }
+  $this .split-input > input,
+  $this .split-input > select {
+    margin-bottom: 2%;
+    width: 100%;
+  }
+  $this select:nth-child(even),
+  $this input:nth-child(even),
+  $this .split-input:nth-child(even) {
+    margin-left: 0;
+  }
+  $this .lockit:after {
+    display: none;
+  }
+  $this .split-input > select[class=three-quarters],
+  $this .split-input > input[class=three-quarters],
+  $this .split-input > textarea[class=three-quarters] {
+    width: 74%;
+  }
+  $this .split-input > select[class=quarter],
+  $this .split-input > input[class=quarter],
+  $this .split-input > textarea[class=quarter] {
+    margin-left: 2% !important;
+    width: 24%;
+  }
+}
 /* Theme Support */
+[data-theme=default] form select,
+[data-theme=default] form .split-input > input,
+[data-theme=default] form .split-input > select,
+[data-theme=default] form input,
+[data-theme=default] form textarea {
+  border: 1px solid rgba(255,255,255,.7) !important;
+  background: rgba(255,255,255,.5) !important;
+  box-shadow: rgba(0,0,0,.15) 0 1px 0 !important;
+  color: rgba(0,0,0,.7) !important;
+}
+[data-theme=default] form select:focus,
+[data-theme=default] form .split-input > *:focus,
+[data-theme=default] form input:focus,
+[data-theme=default] form textarea:focus {
+  border-color: orange !important;
+  box-shadow: #fc0 0 0 3px !important;
+}
 [data-theme=code] form select,
 [data-theme=code] form .split-input > input,
 [data-theme=code] form .split-input > select,
-[data-theme=code] form [type="text"],
-[data-theme=code] form [type="tel"],
-[data-theme=code] form [type^="cc-"],
-[data-theme=code] form [type="email"] {
+[data-theme=code] form input,
+[data-theme=code] form textarea {
   border: 1px solid rgba(0,0,0,.25);
   border-radius: 2px;
   background: #002b36;
@@ -199,20 +231,16 @@ form fieldset {
 }
 [data-theme=code] form select:focus,
 [data-theme=code] form .split-input > *:focus,
-[data-theme=code] form [type="text"]:focus,
-[data-theme=code] form [type="tel"]:focus,
-[data-theme=code] form [type^="cc-"]:focus,
-[data-theme=code] form [type="email"]:focus {
+[data-theme=code] form input:focus,
+[data-theme=code] form textarea:focus {
   border-color: #2aa198;
   box-shadow: #2aa198 0 0 3px;
 }
 [data-theme=dark] form select,
 [data-theme=dark] form .split-input > input,
 [data-theme=dark] form .split-input > select,
-[data-theme=dark] form [type="text"],
-[data-theme=dark] form [type="tel"],
-[data-theme=dark] form [type^="cc-"],
-[data-theme=dark] form [type="email"] {
+[data-theme=dark] form input,
+[data-theme=dark] form textarea {
   border: 1px solid rgba(0,0,0,.25);
   border-radius: 2px;
   background: rgba(0,0,0,.3);
@@ -225,10 +253,8 @@ form fieldset {
 }
 [data-theme=dark] form select:focus,
 [data-theme=dark] form .split-input > *:focus,
-[data-theme=dark] form [type="text"]:focus,
-[data-theme=dark] form [type="tel"]:focus,
-[data-theme=dark] form [type^="cc-"]:focus,
-[data-theme=dark] form [type="email"]:focus {
+[data-theme=dark] form input:focus,
+[data-theme=dark] form textare:focus {
   border-color: #6c71c4;
   box-shadow: #6c71c4 0 0 3px;
 }
